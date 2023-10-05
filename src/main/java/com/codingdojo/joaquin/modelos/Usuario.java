@@ -43,7 +43,6 @@ public class Usuario {
 	@Size(min=6, message="La contraseña debe tener al menos 6 caracteres")
 	private String password;
 	
-	private String tipo;
 	
 	
 	@NotEmpty(message="El campo de confirmacion es obligatorio.")

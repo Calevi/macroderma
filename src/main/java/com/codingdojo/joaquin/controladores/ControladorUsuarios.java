@@ -80,4 +80,9 @@ public class ControladorUsuarios {
 		
 }
 	
+	@GetMapping("/tratamientos")
+	public String Tratamiento(Model model) {
+		return "tratamientos.jsp";
+	}
+	
 }

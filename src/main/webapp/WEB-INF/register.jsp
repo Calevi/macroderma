@@ -37,7 +37,6 @@
                 <form:password path="confirmacion"></form:password>
                 <form:errors path="confirmacion"></form:errors>
                 
-                <form:hidden path="tipo" value="normal"/>
 				
                 <input type="submit" class="enviar" value="Registrarse">
             </form:form>

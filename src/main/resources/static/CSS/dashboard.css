@@ -380,7 +380,16 @@ body {
 .logonegro {
 	width: 100px;
 }
-
+.products {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .product {
     width: calc(33.33% - 20px);
     margin-bottom: 40px;
