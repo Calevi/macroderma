@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import com.codingdojo.joaquin.enumeraciones.Rol;
 import com.codingdojo.joaquin.modelos.Usuario;
 import com.codingdojo.joaquin.servicios.ServiciosUsuarios;
 
@@ -36,17 +37,22 @@ public class ControladorUsuarios {
 	
 	@PostMapping("/registro")
 	public String registro(@Valid @ModelAttribute("nuevoUsuario") Usuario nuevoUsuario, BindingResult result, HttpSession session) {
-		
-		servicioUsuarios.registrar(nuevoUsuario, result);
-		
-		if(result.hasErrors()) {
-			return "register.jsp";
-		} else {
-			
-			session.setAttribute("usuarioEnSesion", nuevoUsuario);
-			return "redirect:/";
-		}
-		
+	    if (result.hasErrors()) {
+	        return "register.jsp";
+	    } else {
+	        // Establecer el rol del nuevo usuario como "Usuario"
+	        nuevoUsuario.setRol(Rol.USUARIO);
+	        
+	        // Registrar el usuario utilizando el servicio
+	        servicioUsuarios.registrar(nuevoUsuario, result);
+	        
+	        if (result.hasErrors()) {
+	            return "register.jsp";
+	        } else {
+	            session.setAttribute("usuarioEnSesion", nuevoUsuario);
+	            return "redirect:/";
+	        }
+	    }
 	}
 	
 	@GetMapping("/login")

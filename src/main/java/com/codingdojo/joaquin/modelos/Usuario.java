@@ -4,8 +4,12 @@ import java.util.Date;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
+import com.codingdojo.joaquin.enumeraciones.Rol;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -43,12 +47,13 @@ public class Usuario {
 	@Size(min=6, message="La contraseña debe tener al menos 6 caracteres")
 	private String password;
 	
-	
-	
 	@NotEmpty(message="El campo de confirmacion es obligatorio.")
 	@Size(min=6, message="La contraseña debe tener al menos 6 caracteres")
 	@Transient//No me guarda el dato en la base de datos
 	private String confirmacion;
+	
+	@Enumerated(EnumType.STRING)
+	private Rol rol;
 	
 	@Column(updatable=false)
 	@DateTimeFormat(pattern="yyyy-MM-dd")
@@ -106,6 +111,14 @@ public class Usuario {
 
 	public void setConfirmacion(String confirmacion) {
 		this.confirmacion = confirmacion;
+	}
+
+	public Rol getRol() {
+		return rol;
+	}
+
+	public void setRol(Rol rol) {
+		this.rol = rol;
 	}
 
 	public Date getCreatedAt() {

@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="CSS/dashboard.css">
 </head>
 <body>
-    <header>
-    <nav>
-        <div class="header">
-            <c:choose>
-                <c:when test="${usuarioEnSesion != null}">
-                    <p>Bienvenid@, ${usuarioEnSesion.nombre}</p>
-                    <a href="/logout" class="logout-button">Cerrar Sesión</a>
-                </c:when>
-                <c:otherwise>
-                    <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesión</a>
-                </c:otherwise>
-            </c:choose>
-        </div>
-    </nav>
-</header>
+	<header>
+	    <nav>
+	        <div class="header">
+	            <c:choose>
+	                <c:when test="${usuarioEnSesion != null}">
+	                    <p><c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>Bienvenid@, ${usuarioEnSesion.nombre}</p>
+	                    <a href="/logout" class="logout-button">Cerrar Sesión</a>
+	                </c:when>
+	                <c:otherwise>
+	                    <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesión</a>
+	                </c:otherwise>
+	            </c:choose>
+	        </div>
+	    </nav>
+	</header>
 
     <div class="columns">
         <nav class="main-nav">
@@ -59,7 +59,7 @@
         <div class="feature-content">
             <h2>Descubre Nuestros Servicios de Cuidado de la Piel</h2>
             <p>Somos una tienda especializada en productos y tratamientos de cuidado de la piel. Ofrecemos una amplia gama de productos de alta calidad para ayudarte a mantener tu piel saludable y radiante. Nuestros expertos en cuidado de la piel están aquí para ayudarte a encontrar los mejores tratamientos para tus necesidades.</p>
-            <a href="#tratamientos" class="cta-button">Ver tratamientos</a>
+            <a href="/tratamientos" class="cta-button">Ver tratamientos</a>
         </div>
     </section>
     <section class="gallery-section">
@@ -101,7 +101,7 @@
             <div class="social-buttons">
                 <a href="#" class="social-button facebook">Facebook</a>
                 <a href="#" class="social-button twitter">Twitter</a>
-                <a href="#" class="social-button instagram">Instagram</a>
+                <a href="https://www.instagram.com/macroderma/" class="social-button instagram">Instagram</a>
                 <a href="#" class="social-button linkedin">LinkedIn</a>
             </div>
         </div>
