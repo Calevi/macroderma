@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="CSS/dashboard.css">
 </head>
 <body>
-<header>
+ <header>
     <nav>
         <div class="header">
             <c:choose>
@@ -26,7 +26,7 @@
     <div class="columns">
         <nav class="main-nav">
             <ul>
-                <img src="Images/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro">
+            	<li><a href="/"><img src="Images/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
                 <li><a href="#tratamientos">Tratamientos</a></li>
                 <li><a href="#productos">Productos</a></li>
                 <li><a href="#nosotros">Nosotros</a></li>
@@ -39,8 +39,8 @@
             <button type="button">Buscar</button>
         </div>
         
-        <div class="cart">
-            <img src="cart_icon.png" alt="Carrito de compras">
+         <div class="cart">
+            <img src="Images/carrito.png" alt="Carrito de compras">
             <span>0</span>
         </div>
     </div>
@@ -94,7 +94,7 @@
     <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
-                <img src="footer_logo.png" alt="Logo de la Empresa">
+                <img src="Images/logoblanco.png" alt="Logo de la Empresa" class="logo">
             </div>
             <div class="footer-column">
                 <h4>Servicios de SkinCare</h4>

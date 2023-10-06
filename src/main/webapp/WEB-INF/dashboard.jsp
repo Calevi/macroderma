@@ -27,8 +27,8 @@
     <div class="columns">
         <nav class="main-nav">
             <ul>
-            	<li><img src="Images/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></li>
-                <li><a href="#tratamientos">Tratamientos</a></li>
+            	<li><a href="/"><img src="Images/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
+                <li><a href="/tratamientos">Tratamientos</a></li>
                 <li><a href="#productos">Productos</a></li>
                 <li><a href="#nosotros">Nosotros</a></li>
                 <li><a href="#experiencias">Experiencias</a></li>
