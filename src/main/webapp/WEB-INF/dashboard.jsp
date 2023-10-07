@@ -8,21 +8,26 @@
     <link rel="stylesheet" href="CSS/dashboard.css">
 </head>
 <body>
-	<header>
-	    <nav>
-	        <div class="header">
-	            <c:choose>
-	                <c:when test="${usuarioEnSesion != null}">
-	                    <p><c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>Bienvenid@, ${usuarioEnSesion.nombre}</p>
-	                    <a href="/logout" class="logout-button">Cerrar Sesión</a>
-	                </c:when>
-	                <c:otherwise>
-	                    <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesión</a>
-	                </c:otherwise>
-	            </c:choose>
-	        </div>
-	    </nav>
-	</header>
+	    <header>
+        <nav>
+            <div class="header">
+                <c:choose>
+                    <c:when test="${usuarioEnSesion != null}">
+                        <p><c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>Bienvenid@, ${usuarioEnSesion.nombre}</p>
+                        <a href="/logout" class="logout-button">Cerrar Sesión</a>
+                        <!-- Agrega enlaces para administradores -->
+                        <c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">
+                            <a href="/misproductos" class="dashboard-link">Ver Mis Productos</a>
+                            <a href="/subirproductos" class="dashboard-link">Subir Nuevos Productos</a>
+                        </c:if>
+                    </c:when>
+                    <c:otherwise>
+                        <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesión</a>
+                    </c:otherwise>
+                </c:choose>
+            </div>
+        </nav>
+    </header>
 
     <div class="columns">
         <nav class="main-nav">
