@@ -436,3 +436,106 @@ body {
 .buy-button:hover {
     background-color: #ff9900;
 }
+<<<<<<< HEAD
+=======
+.policy {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    color: #333;
+}
+
+.policy h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.policy h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.policy p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #666;
+}
+
+.policy a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.policy a:hover {
+    color: #ff9900;
+}
+.terms {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    color: #333;
+}
+
+.terms h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.terms h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.terms p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #666;
+}
+
+.terms a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.terms a:hover {
+    color: #ff9900;
+}
+.legal {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    color: #333;
+}
+
+.legal h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.legal p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #666;
+}
+>>>>>>> branch 'master' of https://github.com/JuakoPako/ProyectoMacroderma.git

@@ -108,8 +108,8 @@
             <div class="footer-column">
                 <h4>Páginas Legales</h4>
                 <ul>
-                    <li><a href="#politica-privacidad">Política de Privacidad</a></li>
-                    <li><a href="#terminos-condiciones">Términos y Condiciones</a></li>
+                    <li><a href="/PyP">Política de Privacidad</a></li>
+                    <li><a href="/condiciones">Condiciones de Uso</a></li>
                     <li><a href="#aviso-legal">Aviso Legal</a></li>
                 </ul>
             </div>

@@ -81,7 +81,7 @@
     <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
-                <img src="Images/logoblanco.png" alt="Logo de la Empresa" class="logo">
+                <a href="/"><img src="Images/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a>
             </div>
             <div class="footer-column">
                 <h4>Servicios de SkinCare</h4>
@@ -95,19 +95,16 @@
             <div class="footer-column">
                 <h4>Páginas Legales</h4>
                 <ul>
-                    <li><a href="#politica-privacidad">Política de Privacidad</a></li>
-                    <li><a href="#terminos-condiciones">Términos y Condiciones</a></li>
+                    <li><a href="/PyP">Política de Privacidad</a></li>
+                    <li><a href="#terminos-condiciones">Condiciones de uso</a></li>
                     <li><a href="#aviso-legal">Aviso Legal</a></li>
                 </ul>
             </div>
         </div>
         <div class="social-section">
-            <h4>Síguenos en Redes Sociales</h4>
+            <h4>Síguenos en Instagram</h4>
             <div class="social-buttons">
-                <a href="#" class="social-button facebook">Facebook</a>
-                <a href="#" class="social-button twitter">Twitter</a>
-                <a href="https://www.instagram.com/macroderma/" class="social-button instagram">Instagram</a>
-                <a href="#" class="social-button linkedin">LinkedIn</a>
+                <a href="https://www.instagram.com/macroderma/" class="social-button instagram">Instagram</a>              
             </div>
         </div>
     </footer>

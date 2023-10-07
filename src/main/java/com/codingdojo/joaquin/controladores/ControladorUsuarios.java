@@ -91,4 +91,18 @@ public class ControladorUsuarios {
 		return "tratamientos.jsp";
 	}
 	
+	@GetMapping("/PyP")
+	public String PyP() {
+		return "PyP.jsp";
+	}
+	
+	@GetMapping("/condiciones")
+	public String condiciones() {
+		return "condiciones.jsp";
+	}
+	
+	@GetMapping("/aviso")
+	public String aviso() {
+		return "aviso.jsp";
+	}
 }
