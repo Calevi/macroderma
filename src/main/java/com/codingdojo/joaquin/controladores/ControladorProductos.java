@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -86,5 +87,31 @@ public class ControladorProductos {
             
             return "redirect:/subirproductos";
         }
+    }
+    
+    
+    @GetMapping("/misproductos")
+    public String mostrarMisProductos(Model model, HttpSession session) {
+        Usuario usuarioEnSesion = (Usuario) session.getAttribute("usuarioEnSesion");
+        if (usuarioEnSesion == null) {
+            return "redirect:/login";
+        }
+
+        List<Producto> misProductos = serviciosProductos.obtenerTodosLosProductos();
+        model.addAttribute("misProductos", misProductos);
+
+        return "misproductos.jsp";
+    }
+
+    @GetMapping("/editarproducto/{id}")
+    public String editarProducto(@RequestParam("id") Long id, Model model) {
+        
+        return "editarproducto.jsp";
+    }
+
+    @GetMapping("/eliminarproducto/{id}")
+    public String eliminarProducto(@RequestParam("id") Long id) {
+        
+        return "redirect:/misproductos";
     }
 }

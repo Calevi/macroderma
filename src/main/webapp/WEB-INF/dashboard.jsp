@@ -81,7 +81,7 @@
     <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
-                <a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a>
+                <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
             </div>
             <div class="footer-column">
                 <h4>Servicios de SkinCare</h4>

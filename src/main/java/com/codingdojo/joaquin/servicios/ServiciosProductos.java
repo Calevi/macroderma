@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.codingdojo.joaquin.modelos.Producto;
+import com.codingdojo.joaquin.modelos.Usuario;
 import com.codingdojo.joaquin.repositorios.RepositorioProductos;
 
 @Service
@@ -29,6 +30,10 @@ public class ServiciosProductos {
 
 	    public void eliminarProducto(Long id) {
 	        repoProductos.deleteById(id);
+	    }
+	    
+	    public List<Producto> obtenerProductosPorUsuario(Usuario usuario) {
+	        return repoProductos.findByUsuario(usuario);
 	    }
 	
 }
