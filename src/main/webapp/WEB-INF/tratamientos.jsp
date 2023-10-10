@@ -14,10 +14,10 @@
 	            <c:choose>
 	                <c:when test="${usuarioEnSesion != null}">
 	                    <p><c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>Bienvenid@, ${usuarioEnSesion.nombre}</p>
-	                    <a href="/logout" class="logout-button">Cerrar Sesión</a>
+	                    <a href="/logout" class="logout-button">Cerrar Sesiï¿½n</a>
 	                </c:when>
 	                <c:otherwise>
-	                    <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesión</a>
+	                    <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesiï¿½n</a>
 	                </c:otherwise>
 	            </c:choose>
 	        </div>
@@ -27,8 +27,8 @@
         <nav class="main-nav">
             <ul>
             	<li><a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
-                <li><a href="#tratamientos">Tratamientos</a></li>
-                <li><a href="#productos">Productos</a></li>
+                <li><a href="/tratamientos">Tratamientos</a></li>
+                <li><a href="/productos">Productos</a></li>
                 <li><a href="#nosotros">Nosotros</a></li>
                 <li><a href="#experiencias">Experiencias</a></li>
             </ul>
@@ -47,16 +47,16 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Bienvenido a Nuestra Tienda de Cuidado de la Piel</h1>
-            <p>Descubre nuestra amplia gama de tratamientos sobre cuidado de la piel para lucir radiante y saludable todos los días.</p>
+            <p>Descubre nuestra amplia gama de tratamientos sobre cuidado de la piel para lucir radiante y saludable todos los dï¿½as.</p>
             <a href="#productos" class="cta-button">Explora nuestros tratamientos</a>
         </div>
     </section>
     <section class="products">
-        <!-- Contenido de la sección de productos -->
+        <!-- Contenido de la secciï¿½n de productos -->
         <div class="product">
             <img src="" alt="Producto 1">
             <h3>Botox</h3>
-            <p>Descripción del Producto 1.</p>
+            <p>Descripciï¿½n del Producto 1.</p>
             <span class="price">$99.99</span>
             <a href="#" class="buy-button">Comprar</a>
         </div>
@@ -64,7 +64,7 @@
         <div class="product">
             <img src="https://us.123rf.com/450wm/pitinan/pitinan1806/pitinan180600494/104972017-hermosa-mujer-con-un-tratamiento-de-exfoliaci%C3%B3n-cosm%C3%A9tica-facial-de-un-dermat%C3%B3logo-profesional-en-un.jpg?ver=6" alt="Producto 2">
             <h3>Hilos tensores</h3>
-            <p>Descripción del Producto 2.</p>
+            <p>Descripciï¿½n del Producto 2.</p>
             <span class="price">$79.99</span>
             <a href="#" class="buy-button">Comprar</a>
         </div>
@@ -72,21 +72,21 @@
         <div class="product">
             <img src="" alt="Producto 1">
             <h3>Botox</h3>
-            <p>Descripción del Producto 1.</p>
+            <p>Descripciï¿½n del Producto 1.</p>
             <span class="price">$99.99</span>
             <a href="#" class="buy-button">Comprar</a>
         </div>
         <div class="product">
             <img src="" alt="Producto 1">
             <h3>Botox</h3>
-            <p>Descripción del Producto 1.</p>
+            <p>Descripciï¿½n del Producto 1.</p>
             <span class="price">$99.99</span>
             <a href="#" class="buy-button">Comprar</a>
         </div>
         <div class="product">
             <img src="" alt="Producto 1">
             <h3>Botox</h3>
-            <p>Descripción del Producto 1.</p>
+            <p>Descripciï¿½n del Producto 1.</p>
             <span class="price">$99.99</span>
             <a href="#" class="buy-button">Comprar</a>
         </div>
@@ -106,16 +106,16 @@
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>Páginas Legales</h4>
+                <h4>Pï¿½ginas Legales</h4>
                 <ul>
-                    <li><a href="/PyP">Política de Privacidad</a></li>
+                    <li><a href="/PyP">Polï¿½tica de Privacidad</a></li>
                     <li><a href="/condiciones">Condiciones de Uso</a></li>
                     <li><a href="#aviso-legal">Aviso Legal</a></li>
                 </ul>
             </div>
         </div>
         <div class="social-section">
-            <h4>Síguenos en Redes Sociales</h4>
+            <h4>Sï¿½guenos en Redes Sociales</h4>
             <div class="social-buttons">
                 <a href="#" class="social-button facebook">Facebook</a>
                 <a href="#" class="social-button twitter">Twitter</a>
