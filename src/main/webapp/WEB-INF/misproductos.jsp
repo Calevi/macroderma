@@ -46,8 +46,8 @@
                 <td>${producto.descripcion}</td>
                 <td>${producto.precio}</td>
                 <td>
-                    <a href="/editarproducto?id=${producto.id}">Editar</a>
-                    <a href="/eliminarproducto?id=${producto.id}">Eliminar</a>
+                    <a href="/editarproducto/${producto.id}">Editar</a>
+                    <a href="/eliminarproducto/${producto.id}">Eliminar</a>
                 </td>
             </tr>
         </c:forEach>

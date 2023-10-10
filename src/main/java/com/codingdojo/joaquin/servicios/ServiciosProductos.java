@@ -19,10 +19,12 @@ public class ServiciosProductos {
 	 public List<Producto> obtenerTodosLosProductos() {
 	        return repoProductos.findAll();
 	    }
+	 
+		 public Producto encontrarProducto(Long id) {
+			 return repoProductos.findById(id).orElse(null);
+		 }
 
-	    public Optional<Producto> obtenerProductoPorId(Long id) {
-	        return repoProductos.findById(id);
-	    }
+
 
 	    public Producto guardarProducto(Producto producto) {
 	        return repoProductos.save(producto);

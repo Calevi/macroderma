@@ -12,7 +12,9 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -104,14 +106,41 @@ public class ControladorProductos {
     }
 
     @GetMapping("/editarproducto/{id}")
-    public String editarProducto(@RequestParam("id") Long id, Model model) {
+    public String editarProducto(@PathVariable("id") Long id, Model model, HttpSession session, @ModelAttribute("producto") Producto producto) {
         
+    	Usuario usuarioEnSesion = (Usuario) session.getAttribute("usuarioEnSesion");
+        if (usuarioEnSesion == null) {
+            return "redirect:/login";
+        }
+        
+        Producto productoAEditar = serviciosProductos.encontrarProducto(id);
+        
+        model.addAttribute("producto", productoAEditar);
+    	
         return "editarproducto.jsp";
     }
+    
+    
+    @PutMapping("/actualizar/{id}")
+    public String actualizarProducto(@Valid @ModelAttribute("producto") Producto producto, BindingResult result) {
+    	
+    	if(result.hasErrors()) {
+    		return "editarproducto.jsp";
+    	} else {
+    		serviciosProductos.guardarProducto(producto);
+    		return "redirect:/misproductos";
+    	}
+    	
+    }
+    
+    
+    
 
     @GetMapping("/eliminarproducto/{id}")
-    public String eliminarProducto(@RequestParam("id") Long id) {
+    public String eliminarProducto(@PathVariable("id") Long id) {
         
+    	serviciosProductos.eliminarProducto(id);
+    	
         return "redirect:/misproductos";
     }
 }
