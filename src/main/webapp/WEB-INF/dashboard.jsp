@@ -32,7 +32,7 @@
     <div class="columns">
         <nav class="main-nav">
             <ul>
-            	<li><a href="/"><img src="Images/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
+            	<li><a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
                 <li><a href="/tratamientos">Tratamientos</a></li>
                 <li><a href="#productos">Productos</a></li>
                 <li><a href="#nosotros">Nosotros</a></li>
@@ -46,7 +46,7 @@
         </div>
         
         <div class="cart">
-            <img src="Images/carrito.png" alt="Carrito de compras">
+            <img src="img/carrito.png" alt="Carrito de compras">
             <span>0</span>
         </div>
     </div>
@@ -81,7 +81,7 @@
     <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
-                <a href="/"><img src="Images/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a>
+                <a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a>
             </div>
             <div class="footer-column">
                 <h4>Servicios de SkinCare</h4>

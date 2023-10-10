@@ -14,7 +14,7 @@
 	<div class="container">
         
         <div class="formulario">
-            <img src="Images/cropped-IMG_2592.png" alt="Logo" class="logo">
+            <img src="img/cropped-IMG_2592.png" alt="Logo" class="logo">
             <h1>Registrarse</h1>
             <form:form action="/registro" method="post" modelAttribute="nuevoUsuario">
                 <form:label path="nombre">Nombre:</form:label>
