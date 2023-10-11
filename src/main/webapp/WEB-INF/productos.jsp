@@ -32,8 +32,8 @@
         <nav class="main-nav">
             <ul>
                 <li><a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
-                <li><a href="#tratamientos">Tratamientos</a></li>
-                <li><a href="#productos">Productos</a></li>
+                <li><a href="tratamientos">Tratamientos</a></li>
+                <li><a href="productos">Productos</a></li>
                 <li><a href="#nosotros">Nosotros</a></li>
                 <li><a href="#experiencias">Experiencias</a></li>
             </ul>
@@ -49,23 +49,35 @@
             <span>0</span>
         </div>
     </div>
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Bienvenido a Nuestra Tienda de Cuidado de la Piel</h1>
-            <p>Descubre nuestra amplia gama de tratamientos sobre cuidado de la piel para lucir radiante y saludable todos los días.</p>
-            <a href="#productos" class="cta-button">Explora nuestros tratamientos</a>
-        </div>
+    
     </section>
     <section class="products">
-        <c:forEach items="${productos}" var="producto">
+       
+        
+        
+        <div class="product">
+        
+            <img src="img/bloqueador.jpeg" alt="Bloqueador Solar SPF 50+">
+	        <h3>Anthelios Stick La Roche Posay SPF 50+</h3>
+	        <p>Protege tu piel de los daños del sol con el bloqueador solar SPF 50+ de alta calidad.</p>
+	        <span class="price">$15.990</span>
+	        <a href="#" class="buy-button">Comprar</a>	    
+                               
+        </div>
+        
             <div class="product">
-                <img src="${producto.imagen}" alt="${producto.nombre}">
-                <h3>${producto.nombre}</h3>
-                <p>${producto.descripcion}</p>
-                <span class="price">${producto.precio}</span>
-                <a href="#" class="buy-button">Comprar</a>
-            </div>
-        </c:forEach>
+	        <img src="imagen_serum.jpg" alt="Serum Hidratante Antiarrugas">
+	        <h3>Serum Hidratante Antiarrugas</h3>
+	        <p>Reduce las arrugas y rejuvenece tu piel con nuestro serum hidratante antiarrugas.</p>
+	        <span class "price">$19.99</span>
+	        <a href="#" class="buy-button">Comprar</a>
+    	</div>
+        
+            
+            
+            
+            
+        
     </section>
     <footer class="footer-section">
         <div class="footer-content">
