@@ -106,10 +106,7 @@ public class ControladorUsuarios {
 		return "aviso.jsp";
 	}
 	
-	@GetMapping("/productos")
-	public String Productos(Model model) {
-		return "productos.jsp";
-	}
+
 	
 	@GetMapping("/nosotros")
 	public String nosostros() {

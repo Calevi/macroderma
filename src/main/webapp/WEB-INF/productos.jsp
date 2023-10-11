@@ -13,16 +13,16 @@
             <div class="header">
                 <c:choose>
                     <c:when test="${usuarioEnSesion != null}">
-                        <p>
-                            <c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>
-                            Bienvenid@, ${usuarioEnSesion.nombre}
-                        </p>
-                        <a href="/logout" class="logout-button">Cerrar Sesión</a>
+                        <p><c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>Bienvenid@, ${usuarioEnSesion.nombre}</p>
+                        <a href="/logout" class="logout-button">Cerrar Sesi�n</a>
+                        <!-- Agrega enlaces para administradores -->
+                        <c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">
+                            <a href="/misproductos" class="dashboard-link">Ver Mis Productos</a>
+                            <a href="/subirproductos" class="dashboard-link">Subir Nuevos Productos</a>
+                        </c:if>
                     </c:when>
                     <c:otherwise>
-                        <a href="/registrarse" class="inicioregistro">Registrarse</a>
-                        <p>|</p>
-                        <a href="/login" class="inicioregistro">Iniciar Sesión</a>
+                        <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesi�n</a>
                     </c:otherwise>
                 </c:choose>
             </div>
@@ -57,28 +57,21 @@
        
         
         
-        <div class="product">
+        <div class="product-container">
+        <c:forEach var="producto" items="${productos}">
+            <div class="product-card">
+                <img src="img/${producto.imagen}" alt="${producto.nombre}">
+                <h3>${producto.nombre}</h3>
+                <p>${producto.descripcion}</p>
+                
+                <span class="price">Precio: ${producto.precio} CLP</span>
+                <a href="#" class="buy-button">Comprar</a>
+            </div>
+        </c:forEach>
+    </div>
         
-            <img src="img/bloqueador.jpeg" alt="Bloqueador Solar SPF 50+">
-	        <h3>Anthelios Stick La Roche Posay SPF 50+</h3>
-	        <p>Protege tu piel de los daños del sol con el bloqueador solar SPF 50+ de alta calidad.</p>
-	        <span class="price">$15.990</span>
-	        <a href="#" class="buy-button">Comprar</a>	    
-                               
-        </div>
         
-        <div class="product">
-	        <img src="img/serum.jpg" alt="Serum Hidratante Antiarrugas">
-	        <h3>SERUM LA ROCHE-POSAY HYALU B5 30ML</h3>
-	        <p>Sérum dermatológico anti-arrugas que repara la barrera de la piel, rellena inmediatamente, reduce las arrugas de manera significativa, incrementa el volumen y elasticidad de la piel, incluso después de procedimientos estéticos superficiales.</p>
-	        <span class="price">$39.990</span>
-	        <a href="#" class="buy-button">Comprar</a>
-    	</div>
-        
-           
-            
-            
-        
+
     </section>
     <footer class="footer-section">
         <div class="footer-content">

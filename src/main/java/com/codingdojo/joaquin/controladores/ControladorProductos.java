@@ -143,4 +143,17 @@ public class ControladorProductos {
     	
         return "redirect:/misproductos";
     }
+    
+    
+	@GetMapping("/productos")
+	public String Productos(Model model) {
+		
+		List<Producto> productos = serviciosProductos.obtenerTodosLosProductos();
+		model.addAttribute("productos", productos);
+		
+		return "productos.jsp";
+	}
+	
+	
+    
 }

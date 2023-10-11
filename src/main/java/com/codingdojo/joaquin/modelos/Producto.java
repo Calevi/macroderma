@@ -37,7 +37,7 @@ public class Producto {
 	private String descripcion;
 	
 	@NotNull
-	private Double precio;
+	private Integer precio;
 	
 	
 	private Integer stock;
@@ -88,11 +88,13 @@ public class Producto {
 		this.descripcion = descripcion;
 	}
 
-	public Double getPrecio() {
+	
+
+	public Integer getPrecio() {
 		return precio;
 	}
 
-	public void setPrecio(Double precio) {
+	public void setPrecio(Integer precio) {
 		this.precio = precio;
 	}
 
