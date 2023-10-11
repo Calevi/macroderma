@@ -57,14 +57,16 @@
        
         
         
-        <div class="product-container">
+        <div class="product-grid">
         <c:forEach var="producto" items="${productos}">
             <div class="product-card">
-                <img src="img/${producto.imagen}" alt="${producto.nombre}">
+            	<div class="product-image">
+                	<img src="img/${producto.imagen}" alt="${producto.nombre}">
+                </div>
                 <h3>${producto.nombre}</h3>
                 <p>${producto.descripcion}</p>
                 
-                <span class="price">Precio: ${producto.precio} CLP</span>
+                <span class="price">Precio: $${producto.precio} CLP</span>
                 <a href="#" class="buy-button">Comprar</a>
             </div>
         </c:forEach>
@@ -97,13 +99,16 @@
             </div>
         </div>
         <div class="social-section">
-            <h4>Síguenos en Redes Sociales</h4>
+            <h4>Siguenos en Redes Sociales</h4>
             <div class="social-buttons">
-                <a href="#" class="social-button facebook">Facebook</a>
-                <a href="#" class="social-button twitter">Twitter</a>
                 <a href="#" class="social-button instagram">Instagram</a>
             </div>
         </div>
+        
+    
+        
+        
+        
     </footer>
 </body>
 </html>
