@@ -110,4 +110,9 @@ public class ControladorUsuarios {
 	public String producto() {
 		return "producto.jsp";
 	}
+	
+	@GetMapping("/nosotros")
+	public String nosostros() {
+		return "nosotros.jsp";
+	}
 }

@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Cuidado de la piel</title>
+    <title>Nosotros</title>
     <link rel="stylesheet" href="CSS/dashboard.css">
 </head>
 <body>
-	    <header>
+	<header>
         <nav>
             <div class="header">
                 <c:choose>
@@ -28,7 +28,6 @@
             </div>
         </nav>
     </header>
-
     <div class="columns">
         <nav class="main-nav">
             <ul>
@@ -48,36 +47,24 @@
         <div class="cart">
             <img src="img/carrito.png" alt="Carrito de compras">
             <span>0</span>
-        </div>
+    	</div>
     </div>
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Bienvenido a Nuestra Tienda de Cuidado de la Piel</h1>
-            <p>Descubre nuestra amplia gama de productos de cuidado de la piel para lucir radiante y saludable todos los días.</p>
-            <a href="#productos" class="cta-button">Explora nuestros productos</a>
-        </div>
-    </section>
-    <section class="feature-section">
-        <div class="feature-image">
-            <img src="https://www.topdoctors.mx/files/Image/large/14dc75abcfecc85167564fdecd531666.jpg" alt="Imagen de Destacado">
-        </div>
-        <div class="feature-content">
-            <h2>Descubre Nuestros Servicios de Cuidado de la Piel</h2>
-            <p>Somos una tienda especializada en productos y tratamientos de cuidado de la piel. Ofrecemos una amplia gama de productos de alta calidad para ayudarte a mantener tu piel saludable y radiante. Nuestros expertos en cuidado de la piel están aquí para ayudarte a encontrar los mejores tratamientos para tus necesidades.</p>
-            <a href="/tratamientos" class="cta-button">Ver tratamientos</a>
-        </div>
-    </section>
-    <section class="gallery-section">
-        <h2>Galería de Imágenes</h2>
-        <div class="image-gallery">
-            <img src="https://semprebella.com.ar/wp-content/uploads/2023/06/limpieza-de-cutis-profunda-estetica-sempre-bella.jpg" alt="Imagen 1">
-            <img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/07/11061838/Tratamientos-faciales.jpg" alt="Imagen 2">
-            <img src="https://www.hedonai.com/wp-content/uploads/2018/07/peeling-prx.jpg" alt="Imagen 3">
-            <img src="https://www.hedonai.com/wp-content/uploads/2021/11/diferencia-entre-peeling-y-exfoliante.jpg" alt="Imagen 4">
-            <img src="https://d1kw0nx8pk9xzh.cloudfront.net/0001/fc77c508/resize-crop(w=1600;h=900):sharpen(level=0):output(format=jpeg)/up/dt/2023/05/Ojeras1_Vitriol.jpg" alt="Imagen 5">
-            <img src="https://media.glamour.mx/photos/619b3334dd26e0d8fb30a666/16:9/w_2560%2Cc_limit/266948.jpg" alt="Imagen 6">
-        </div>
-    </section>
+    <div class="columns">
+    	<div>
+    		<div>
+    			<h1>¿Que es Macroderma?</h1>
+    			<p>
+	   				En esta seccion presentamos que es macroderma y como surge en conjuntro a la presentacion de la fundadora directotra
+	   				o dueña de la pyme a la cual estamos apoyando con la creacion de la pagina web.
+	   				tambien se puede rellenar del cual es principal y el porque surgio
+	   			</p>
+	   		</div> 
+	    	<div>
+	    			    			
+    		</div>   	
+   		</div>
+    </div>
+    
     <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
@@ -108,5 +95,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>
