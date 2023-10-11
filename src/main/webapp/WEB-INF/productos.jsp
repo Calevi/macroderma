@@ -32,8 +32,8 @@
         <nav class="main-nav">
             <ul>
                 <li><a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
-                <li><a href="#tratamientos">Tratamientos</a></li>
-                <li><a href="#productos">Productos</a></li>
+                <li><a href="tratamientos">Tratamientos</a></li>
+                <li><a href="productos">Productos</a></li>
                 <li><a href="#nosotros">Nosotros</a></li>
                 <li><a href="#experiencias">Experiencias</a></li>
             </ul>
@@ -46,26 +46,39 @@
         
         <div class="cart">
             <img src="img/carrito.png" alt="Carrito de compras">
-            <span>0</span>
+            <span id="cart-counter">0</span>
         </div>
+        
+        
     </div>
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Bienvenido a Nuestra Tienda de Cuidado de la Piel</h1>
-            <p>Descubre nuestra amplia gama de tratamientos sobre cuidado de la piel para lucir radiante y saludable todos los días.</p>
-            <a href="#productos" class="cta-button">Explora nuestros tratamientos</a>
-        </div>
+    
     </section>
     <section class="products">
-        <c:forEach items="${productos}" var="producto">
-            <div class="product">
-                <img src="${producto.imagen}" alt="${producto.nombre}">
-                <h3>${producto.nombre}</h3>
-                <p>${producto.descripcion}</p>
-                <span class="price">${producto.precio}</span>
-                <a href="#" class="buy-button">Comprar</a>
-            </div>
-        </c:forEach>
+       
+        
+        
+        <div class="product">
+        
+            <img src="img/bloqueador.jpeg" alt="Bloqueador Solar SPF 50+">
+	        <h3>Anthelios Stick La Roche Posay SPF 50+</h3>
+	        <p>Protege tu piel de los daños del sol con el bloqueador solar SPF 50+ de alta calidad.</p>
+	        <span class="price">$15.990</span>
+	        <a href="#" class="buy-button">Comprar</a>	    
+                               
+        </div>
+        
+        <div class="product">
+	        <img src="img/serum.jpg" alt="Serum Hidratante Antiarrugas">
+	        <h3>SERUM LA ROCHE-POSAY HYALU B5 30ML</h3>
+	        <p>Sérum dermatológico anti-arrugas que repara la barrera de la piel, rellena inmediatamente, reduce las arrugas de manera significativa, incrementa el volumen y elasticidad de la piel, incluso después de procedimientos estéticos superficiales.</p>
+	        <span class="price">$39.990</span>
+	        <a href="#" class="buy-button">Comprar</a>
+    	</div>
+        
+           
+            
+            
+        
     </section>
     <footer class="footer-section">
         <div class="footer-content">
