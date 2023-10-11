@@ -46,8 +46,10 @@
         
         <div class="cart">
             <img src="img/carrito.png" alt="Carrito de compras">
-            <span>0</span>
+            <span id="cart-counter">0</span>
         </div>
+        
+        
     </div>
     
     </section>
@@ -65,16 +67,15 @@
                                
         </div>
         
-            <div class="product">
-	        <img src="imagen_serum.jpg" alt="Serum Hidratante Antiarrugas">
-	        <h3>Serum Hidratante Antiarrugas</h3>
-	        <p>Reduce las arrugas y rejuvenece tu piel con nuestro serum hidratante antiarrugas.</p>
-	        <span class "price">$19.99</span>
+        <div class="product">
+	        <img src="img/serum.jpg" alt="Serum Hidratante Antiarrugas">
+	        <h3>SERUM LA ROCHE-POSAY HYALU B5 30ML</h3>
+	        <p>Sérum dermatológico anti-arrugas que repara la barrera de la piel, rellena inmediatamente, reduce las arrugas de manera significativa, incrementa el volumen y elasticidad de la piel, incluso después de procedimientos estéticos superficiales.</p>
+	        <span class="price">$39.990</span>
 	        <a href="#" class="buy-button">Comprar</a>
     	</div>
         
-            
-            
+           
             
             
         
