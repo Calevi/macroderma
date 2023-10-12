@@ -5,10 +5,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+<title>Editar producto</title>
 <link rel="stylesheet" href="CSS/dashboard.css">
 <link rel="stylesheet" href="CSS/formularioproducto.css">
-<meta charset="ISO-8859-1">
-<title>Editar producto</title>
 </head>
 <body>
 	    <header>
@@ -50,6 +50,11 @@
 			        <form:label path="precio">Precio:</form:label>
 			        <form:input type="number" path="precio" id="precio" class="form-control" />
 			        <form:errors path="precio" cssClass="error" />
+			    </div>
+			    <div class="form-group">
+			        <form:label path="stock">Stock:</form:label>
+			        <form:input type="number" path="stock" id="precio" class="form-control" />
+			        <form:errors path="stock" cssClass="error" />
 			    </div>
 			    <div class="form-group">
 		        	<label>Imagen del producto:</label>

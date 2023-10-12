@@ -52,6 +52,11 @@
 			        <form:errors path="precio" cssClass="error" />
 			    </div>
 			    <div class="form-group">
+			        <form:label path="stock">Stock:</form:label>
+			        <form:input type="number" path="stock" id="precio" class="form-control" />
+			        <form:errors path="stock" cssClass="error" />
+			    </div>
+			    <div class="form-group">
 		        	<label>Imagen del producto:</label>
 		        	<input type="file" class="form-control" id="imagenProducto" name="image"/>
 		    	</div>

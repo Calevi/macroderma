@@ -63,7 +63,7 @@
             	<div class="product-image">
                 	<img src="img/${producto.imagen}" alt="${producto.nombre}">
                 </div>
-                <h3>${producto.nombre}</h3>
+                <a href="/verproducto/${producto.id}"><h3>${producto.nombre}</h3></a> 
                 <p>${producto.descripcion}</p>
                 
                 <span class="price">Precio: $${producto.precio} CLP</span>

@@ -65,13 +65,13 @@ public class ControladorProductos {
             // Guarda la imagen como un array de bytes
             if (!image.isEmpty()) {
             	
-            	System.out.println("1");
+            	
             	
             	Path directorioImagenes = Paths.get("src/main/resources/static/img");
             	
             	String rutaAbsoluta = directorioImagenes.toFile().getAbsolutePath();
                 
-            	try { System.out.println("2");
+            	try { 
             		byte[] bytesImg = image.getBytes();
             		Path rutaCompleta = Paths.get(rutaAbsoluta+"/"+image.getOriginalFilename());
             		Files.write(rutaCompleta, bytesImg);
@@ -81,13 +81,14 @@ public class ControladorProductos {
             		e.printStackTrace();
             	}
             }
-            System.out.println("3");
+            
             // Guarda el producto utilizando el servicio de productos
             serviciosProductos.guardarProducto(nuevoProducto);
 
             redirectAttributes.addFlashAttribute("mensaje", "Producto subido exitosamente.");
+            System.out.println("Producto subido correctamente");
             
-            return "redirect:/subirproductos";
+            return "redirect:/misproductos";
         }
     }
     
@@ -152,6 +153,16 @@ public class ControladorProductos {
 		model.addAttribute("productos", productos);
 		
 		return "productos.jsp";
+	}
+	
+	@GetMapping("/verproducto/{id}")
+	public String verproducto(@PathVariable("id") Long id, Model model) {
+		
+		Producto productoBuscado = serviciosProductos.encontrarProducto(id);
+		model.addAttribute("producto", productoBuscado);
+		
+		return "productoencontrado.jsp";
+		
 	}
 	
 	
