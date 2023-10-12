@@ -77,7 +77,7 @@
             <img src="https://media.glamour.mx/photos/619b3334dd26e0d8fb30a666/16:9/w_2560%2Cc_limit/266948.jpg" alt="Imagen 6">
         </div>
     </section>
-    <footer class="footer-section">
+<footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
                 <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
@@ -101,8 +101,8 @@
         <div class="social-section">
             <h4>Síguenos en Instagram</h4>
             <div class="social-buttons">
-                <a href="https://www.instagram.com/macroderma/" class="social-button instagram">Instagram</a>  
-                <a href="#" class="social-button whatsapp">Whatsapp</a>            
+                <a href="https://www.instagram.com/macroderma/" class="social-button instagram" target="_blank">Instagram</a>  
+                <a href="https://wa.me/+56933876798" class="social-button whatsapp" target="_blank">WhatsApp</a>          
             </div>
         </div>
     </footer>
