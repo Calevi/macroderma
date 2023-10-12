@@ -8,6 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${producto.nombre}</title>
 <link rel="stylesheet" href="/CSS/dashboard.css">
+<link rel="stylesheet" href="/CSS/producto.css">
 </head>
 <body>
 	<header>
@@ -51,9 +52,27 @@
             <img src="/img/carrito.png" alt="Carrito de compras">
             <span id="cart-counter">0</span>
         </div>
-        
-        
     </div>
+    
+    <div class="product-details">
+        <div class="product-image">
+            <img src="/img/${producto.imagen}" alt="${producto.nombre}">
+        </div>
+        <div class="product-info">
+            <h1>${producto.nombre}</h1>
+            <p>${producto.descripcion}</p>
+            <p>Precio: $${producto.precio} CLP</p>
+            <p>Disponibilidad: ${producto.stock} en stock</p>
+            <!-- Otras características del producto -->
+            <div class="product-actions">
+                <!-- Botón para comprar -->
+                <a href="/realizarCompra?productoId=${producto.id}" class="buy-button">Comprar Ahora</a>
+                <!-- Botón para agregar al carrito -->
+                <a href="/agregarAlCarrito?productoId=${producto.id}" class="cart-button">Agregar al Carrito</a>
+            </div>
+        </div>
+    </div>
+    
     
 </body>
 </html>
