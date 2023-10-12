@@ -68,5 +68,34 @@
             <p>${mensaje}</p>
         </c:if>
     </div>
+      <footer class="footer-section">
+        <div class="footer-content">
+            <div class="footer-column">
+                <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
+            </div>
+            <div class="footer-column">
+                <ul>
+                    <li>MacroDerma estetica © All rights reserved.</li>
+                    <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
+                    <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Páginas Legales</h4>
+                <ul>
+                    <li><a href="/PyP">Política de Privacidad</a></li>
+                    <li><a href="/condiciones">Condiciones de uso</a></li>
+                    <li><a href="/aviso">Aviso Legal</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social-section">
+            <h4>Síguenos en Instagram</h4>
+            <div class="social-buttons">
+                <a href="https://www.instagram.com/macroderma/" class="social-button instagram">Instagram</a>  
+                <a href="#" class="social-button whatsapp">Whatsapp</a>            
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
