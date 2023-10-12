@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
+    <link rel="stylesheet" href="CSS/nos.css">
     <link rel="stylesheet" href="CSS/dashboard.css">
-    <link rel="stylesheet" href="CSS/nosostros.css">
 </head>
 <body>
 	<header>
@@ -51,7 +51,7 @@
     	</div>
     </div>
     <h1>¿Que es Macroderma?</h1>
-    <div class="info columns">
+    <div class="columns">
     		<div>
     			
     			<p>
@@ -60,40 +60,26 @@
 	   				tambien se puede rellenar del cual es principal y el porque surgio
 	   			</p>
 	   		</div> 
-	    	<div>
-	    		<img scr="#img/img.jpg" alt="direc o dueña de pyme">
-	    		<br>
-	    		<b> Nombre de Directora o dueña
-	    		<br>
-	    			Cargo de directora o dueaña
-	    		</b>    			
+	    	<div class="fototext">
+		    	<div>	
+		    		<img class="foto" src="img/duena.jpg" alt="direc o dueña de pyme">
+		    		<br>
+		    		<b> Katherine Ponce.
+		    			<br>
+		    			Fundadora.	
+		    		</b>
+		    	</div>
+		    	<div>
+	    			<img class="foto" src="img/Belén.jpg" alt="enfermera">
+	    			<br>
+	   				<b> 
+	   					Belén Apellido. 
+	   					<br>
+	   					TENS.
+	   				</b>    			
+    			</div>       			
     		</div>   	
-   	</div>
-   	<div class="info columns">
-   		<div>
-	    	<img scr="#img/img.jpg" alt="medico 1">
-	    	<br>
-	   		<b> Nombre 
-	   		<br>
-	   			Cargo 
-	   		</b>    			
-    	</div> 
-    	<div>
-	    	<img scr="#img/img.jpg" alt="medico 2">
-	    	<br>
-	   		<b> Nombre 
-	   		<br>
-	   			Cargo 
-	   		</b>    			
-    	</div> 
-    	<div>
-	    	<img scr="#img/img.jpg" alt="grupo de trabajo">
-	    	<br>
-	   		<b> Grupo de trabajo </b>    			
-    	</div> 
-   	
-   	</div>
-    
+   	</div>    
     <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
