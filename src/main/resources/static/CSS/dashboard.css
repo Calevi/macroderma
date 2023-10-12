@@ -361,8 +361,8 @@ body {
     background-color: #e4405f; /* Café claro de Instagram */
 }
 
-.social-button.linkedin {
-    background-color: #2867b2; /* Color de LinkedIn */
+.social-button.whatsapp {
+    background-color: rgb(14, 241, 48); /* Color de whatsapp */
 }
 
 .social-button:last-child {

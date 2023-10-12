@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -55,15 +56,13 @@
     <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
-                <a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a>
+                <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
             </div>
             <div class="footer-column">
-                <h4>Servicios de SkinCare</h4>
                 <ul>
-                    <li><a href="#servicio1">Servicio 1</a></li>
-                    <li><a href="#servicio2">Servicio 2</a></li>
-                    <li><a href="#servicio3">Servicio 3</a></li>
-                    <li><a href="#servicio4">Servicio 4</a></li>
+                    <li>MacroDerma estetica © All rights reserved.</li>
+                    <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
+                    <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
                 </ul>
             </div>
             <div class="footer-column">
@@ -78,7 +77,8 @@
         <div class="social-section">
             <h4>Síguenos en Instagram</h4>
             <div class="social-buttons">
-                <a href="https://www.instagram.com/macroderma/" class="social-button instagram">Instagram</a>              
+                <a href="https://www.instagram.com/macroderma/" class="social-button instagram">Instagram</a>  
+                <a href="#" class="social-button whatsapp">Whatsapp</a>            
             </div>
         </div>
     </footer>
