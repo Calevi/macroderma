@@ -58,6 +58,21 @@
 	   				En esta seccion presentamos que es macroderma y como surge en conjuntro a la presentacion de la fundadora directotra
 	   				o dueña de la pyme a la cual estamos apoyando con la creacion de la pagina web.
 	   				tambien se puede rellenar del cual es principal y el porque surgio
+	   				hbjcfdulhfvbafdikvnbferikvb írehnvgbirongbvuo9erhnqbvo´rejmbertnbp
+	   				eoftrunbe´troibjnrp0nboernjmb0rpoeijmnberoq
+	   				jer9obvneqr0+´binrebp0nero´qbinetrogvjnmrgvn
+	   				rjni0ogvnrew+ogvnjmr0pgvbnr+
+	   				rjeq0pg+ijmrp0gvrjmnq
+	   				frjm+0erpoigjerg+vj
+	   			</p>
+	   			<br>
+	   			<h4>¿Como Contactarnos?</h4>
+	   			<p>
+	   				<b>Direccion:</b>Las rosas #300, Chillan.
+	   				<br>
+	   				contactanos al fono whatsapp +569 133 131 132 <%-- Solo es un ejemplo de numero, lo mismo con la direccion --%>
+	   				
+	   				
 	   			</p>
 	   		</div> 
 	    	<div class="fototext">
