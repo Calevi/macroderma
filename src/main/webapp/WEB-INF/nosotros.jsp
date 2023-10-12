@@ -52,7 +52,7 @@
     </div>
     <h1>¿Que es Macroderma?</h1>
     <div class="columns">
-    		<div class="txt">
+    		<div class="txtd">
     			
     			<p>
 	   				En esta seccion presentamos que es macroderma y como surge en conjuntro a la presentacion de la fundadora directotra
@@ -68,8 +68,6 @@
 	   			<br>
 	   			<h3>¿Como Contactarnos?</h3>
 	   			<p>
-	   				<b>Direccion:</b>Las rosas #300, Chillan.
-	   				<br>
 	   				contactanos al fono whatsapp +569 133 131 132 <%-- Solo es un ejemplo de numero, lo mismo con la direccion --%>
 	   				<br>
 	   				<i>(Solo whatsApp)</i>

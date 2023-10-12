@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -46,7 +47,7 @@
     <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
-                <a href="/"><img src="Images/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a>
+                <a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a>
             </div>
             <div class="footer-column">
                 <h4>Servicios de SkinCare</h4>
