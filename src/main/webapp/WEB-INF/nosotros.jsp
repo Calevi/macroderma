@@ -29,14 +29,13 @@
             </div>
         </nav>
     </header>
-    <div class="columns">
+   <div class="columns">
         <nav class="main-nav">
             <ul>
             	<li><a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
                 <li><a href="/tratamientos">Tratamientos</a></li>
                 <li><a href="/productos">Productos</a></li>
-                <li><a href="/nosotros">Nosotros</a></li>
-                <li><a href="#experiencias">Experiencias</a></li>
+                <li><a href="/nosotros">Nosotros</a></li>      
             </ul>
         </nav>
         
@@ -48,7 +47,7 @@
         <div class="cart">
             <img src="img/carrito.png" alt="Carrito de compras">
             <span>0</span>
-    	</div>
+        </div>
     </div>
     <h1>¿Que es Macroderma?</h1>
     <div class="columns">

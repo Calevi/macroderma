@@ -31,11 +31,10 @@
     <div class="columns">
         <nav class="main-nav">
             <ul>
-                <li><a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
-                <li><a href="tratamientos">Tratamientos</a></li>
-                <li><a href="productos">Productos</a></li>
-                <li><a href="/nosotros">Nosotros</a></li>
-                <li><a href="#experiencias">Experiencias</a></li>
+            	<li><a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
+                <li><a href="/tratamientos">Tratamientos</a></li>
+                <li><a href="/productos">Productos</a></li>
+                <li><a href="/nosotros">Nosotros</a></li>      
             </ul>
         </nav>
         
@@ -46,10 +45,8 @@
         
         <div class="cart">
             <img src="img/carrito.png" alt="Carrito de compras">
-            <span id="cart-counter">0</span>
+            <span>0</span>
         </div>
-        
-        
     </div>
     
     </section>
