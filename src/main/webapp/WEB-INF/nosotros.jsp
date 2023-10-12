@@ -52,7 +52,7 @@
     </div>
     <h1>¿Que es Macroderma?</h1>
     <div class="columns">
-    		<div>
+    		<div class="txt">
     			
     			<p>
 	   				En esta seccion presentamos que es macroderma y como surge en conjuntro a la presentacion de la fundadora directotra
