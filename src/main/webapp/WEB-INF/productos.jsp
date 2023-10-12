@@ -63,7 +63,7 @@
             	<div class="product-image">
                 	<img src="img/${producto.imagen}" alt="${producto.nombre}">
                 </div>
-                <h3>${producto.nombre}</h3>
+                <a href="/verproducto/${producto.id}"><h3>${producto.nombre}</h3></a> 
                 <p>${producto.descripcion}</p>
                 
                 <span class="price">Precio: $${producto.precio} CLP</span>
@@ -90,7 +90,7 @@
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>Páginas Legales</h4>
+                <h4>Paginas Legales</h4>
                 <ul>
                     <li><a href="/PyP">Política de Privacidad</a></li>
                     <li><a href="/condiciones">Condiciones de Uso</a></li>

@@ -1,15 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
-
-<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-<link rel="stylesheet" href="CSS/dashboard.css">
-<meta charset="ISO-8859-1">
-<title>Mis Productos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${producto.nombre}</title>
+<link rel="stylesheet" href="/CSS/dashboard.css">
 </head>
 <body>
-
-    	<header>
+	<header>
         <nav>
             <div class="header">
                 <c:choose>
@@ -30,39 +31,29 @@
         </nav>
     </header>
     
-    <nav class="main-nav">
+    <div class="columns">
+        <nav class="main-nav">
             <ul>
-            	<li><a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
+                <li><a href="/"><img src="/img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
                 <li><a href="/tratamientos">Tratamientos</a></li>
                 <li><a href="/productos">Productos</a></li>
                 <li><a href="/nosotros">Nosotros</a></li>
                 <li><a href="#experiencias">Experiencias</a></li>
             </ul>
-    </nav>
+        </nav>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos...">
+            <button type="button">Buscar</button>
+        </div>
+        
+        <div class="cart">
+            <img src="/img/carrito.png" alt="Carrito de compras">
+            <span id="cart-counter">0</span>
+        </div>
+        
+        
+    </div>
     
-    <table border="1">
-    <thead>
-        <tr>
-            <th>Nombre</th>
-            <th>Descripción</th>
-            <th>Precio</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        <c:forEach var="producto" items="${misProductos}">
-            <tr>
-                <td>${producto.nombre}</td>
-                <td>${producto.descripcion}</td>
-                <td>${producto.precio}</td>
-                <td>
-                    <a href="/editarproducto/${producto.id}">Editar</a>
-                    <a href="/eliminarproducto/${producto.id}">Eliminar</a>
-                </td>
-            </tr>
-        </c:forEach>
-    </tbody>
-</table>
-
 </body>
 </html>

@@ -17,7 +17,7 @@
 	                    <a href="/logout" class="logout-button">Cerrar Sesi�n</a>
 	                </c:when>
 	                <c:otherwise>
-	                    <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesi�n</a>
+	                    <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesion</a>
 	                </c:otherwise>
 	            </c:choose>
 	        </div>
@@ -47,7 +47,7 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Bienvenido a Nuestra Tienda de Cuidado de la Piel</h1>
-            <p>Descubre nuestra amplia gama de tratamientos sobre cuidado de la piel para lucir radiante y saludable todos los d�as.</p>
+            <p>Descubre nuestra amplia gama de tratamientos sobre cuidado de la piel para lucir radiante y saludable todos los dias.</p>
             <a href="#productos" class="cta-button">Explora nuestros tratamientos</a>
         </div>
     </section>
@@ -56,7 +56,7 @@
         <div class="product">
             <img src="" alt="Producto 1">
             <h3>Botox</h3>
-            <p>Descripci�n del Producto 1.</p>
+            <p>Descripcion del Producto 1.</p>
             <span class="price">$99.99</span>
             <a href="#" class="buy-button">Comprar</a>
         </div>
@@ -64,7 +64,7 @@
         <div class="product">
             <img src="https://us.123rf.com/450wm/pitinan/pitinan1806/pitinan180600494/104972017-hermosa-mujer-con-un-tratamiento-de-exfoliaci%C3%B3n-cosm%C3%A9tica-facial-de-un-dermat%C3%B3logo-profesional-en-un.jpg?ver=6" alt="Producto 2">
             <h3>Hilos tensores</h3>
-            <p>Descripci�n del Producto 2.</p>
+            <p>Descripcion del Producto 2.</p>
             <span class="price">$79.99</span>
             <a href="#" class="buy-button">Comprar</a>
         </div>
@@ -72,21 +72,21 @@
         <div class="product">
             <img src="" alt="Producto 1">
             <h3>Botox</h3>
-            <p>Descripci�n del Producto 1.</p>
+            <p>Descripcion del Producto 1.</p>
             <span class="price">$99.99</span>
             <a href="#" class="buy-button">Comprar</a>
         </div>
         <div class="product">
             <img src="" alt="Producto 1">
             <h3>Botox</h3>
-            <p>Descripci�n del Producto 1.</p>
+            <p>Descripcion del Producto 1.</p>
             <span class="price">$99.99</span>
             <a href="#" class="buy-button">Comprar</a>
         </div>
         <div class="product">
             <img src="" alt="Producto 1">
             <h3>Botox</h3>
-            <p>Descripci�n del Producto 1.</p>
+            <p>Descripcion del Producto 1.</p>
             <span class="price">$99.99</span>
             <a href="#" class="buy-button">Comprar</a>
         </div>
@@ -106,21 +106,18 @@
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>P�ginas Legales</h4>
+                <h4>Paginas Legales</h4>
                 <ul>
-                    <li><a href="/PyP">Pol�tica de Privacidad</a></li>
+                    <li><a href="/PyP">Politica de Privacidad</a></li>
                     <li><a href="/condiciones">Condiciones de Uso</a></li>
                     <li><a href="#aviso-legal">Aviso Legal</a></li>
                 </ul>
             </div>
         </div>
         <div class="social-section">
-            <h4>S�guenos en Redes Sociales</h4>
+            <h4>Siguenos en Redes Sociales</h4>
             <div class="social-buttons">
-                <a href="#" class="social-button facebook">Facebook</a>
-                <a href="#" class="social-button twitter">Twitter</a>
-                <a href="#" class="social-button instagram">Instagram</a>
-                <a href="#" class="social-button linkedin">LinkedIn</a>
+                <a href="https://www.instagram.com/macroderma/" class="social-button instagram">Instagram</a>
             </div>
         </div>
     </footer>
