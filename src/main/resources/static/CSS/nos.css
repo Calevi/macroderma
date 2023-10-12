@@ -1,8 +1,9 @@
 @charset "ISO-8859-1";
 
 .foto {
-	width: 300px;
+	width: 500px;
 }
 .fototext{
 	text-align: center;
+	margin-right: 5px;
 }

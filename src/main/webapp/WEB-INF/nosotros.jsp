@@ -66,12 +66,13 @@
 	   				frjm+0erpoigjerg+vj
 	   			</p>
 	   			<br>
-	   			<h4>¿Como Contactarnos?</h4>
+	   			<h3>¿Como Contactarnos?</h3>
 	   			<p>
 	   				<b>Direccion:</b>Las rosas #300, Chillan.
 	   				<br>
 	   				contactanos al fono whatsapp +569 133 131 132 <%-- Solo es un ejemplo de numero, lo mismo con la direccion --%>
-	   				
+	   				<br>
+	   				<i>(Solo whatsApp)</i>
 	   				
 	   			</p>
 	   		</div> 
