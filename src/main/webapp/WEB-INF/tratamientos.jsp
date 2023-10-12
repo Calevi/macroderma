@@ -97,7 +97,6 @@
                 <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
             </div>
             <div class="footer-column">
-                <h4>Servicios de SkinCare</h4>
                 <ul>
                     <li>MacroDerma estetica © All rights reserved.</li>
                     <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
@@ -108,8 +107,8 @@
                 <h4>Páginas Legales</h4>
                 <ul>
                     <li><a href="/PyP">Política de Privacidad</a></li>
-                    <li><a href="#terminos-condiciones">Condiciones de uso</a></li>
-                    <li><a href="#aviso-legal">Aviso Legal</a></li>
+                    <li><a href="/condiciones">Condiciones de uso</a></li>
+                    <li><a href="/aviso">Aviso Legal</a></li>
                 </ul>
             </div>
         </div>
