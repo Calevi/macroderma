@@ -45,8 +45,8 @@
         </div>
         
         <div class="cart">
-            <img src="img/carrito.png" alt="Carrito de compras">
-            <span>0</span>
+            <a href="/carrito"><img src="/img/carrito.png" alt="Carrito de compras"></a>
+            <span>${not empty carrito ? carrito.size() : 0}</span>
         </div>
     </div>
     <section class="hero">

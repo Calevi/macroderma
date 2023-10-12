@@ -81,6 +81,7 @@ public class ControladorUsuarios {
 	@GetMapping("/logout")
 	public String logout(HttpSession session) {
 		session.removeAttribute("usuarioEnSesion");
+		session.removeAttribute("carrito");
 		return "redirect:/login";
 	
 		

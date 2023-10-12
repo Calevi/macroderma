@@ -35,7 +35,7 @@
      <div class="columns">
         <nav class="main-nav">
             <ul>
-            	<li><a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
+            	<li><a href="/"><img src="/img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
                 <li><a href="/tratamientos">Tratamientos</a></li>
                 <li><a href="/productos">Productos</a></li>
                 <li><a href="/nosotros">Nosotros</a></li>      
@@ -48,8 +48,8 @@
         </div>
         
         <div class="cart">
-            <img src="img/carrito.png" alt="Carrito de compras">
-            <span>0</span>
+            <a href="/carrito"><img src="/img/carrito.png" alt="Carrito de compras"></a>
+            <span>${not empty carrito ? carrito.size() : 0}</span>
         </div>
     </div>
     
@@ -67,7 +67,7 @@
                 <!-- Botón para comprar -->
                 <a href="/realizarCompra?productoId=${producto.id}" class="buy-button">Comprar Ahora</a>
                 <!-- Botón para agregar al carrito -->
-                <a href="/agregarAlCarrito?productoId=${producto.id}" class="cart-button">Agregar al Carrito</a>
+                <a href="/agregarcarrito/${producto.id}" class="cart-button">Agregar al Carrito</a>
             </div>
         </div>
     </div>
@@ -75,7 +75,7 @@
     <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
-                <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
+                <a href="/"><img src="/img/logoblanco.png" alt="Tu Logo" class="logo"></a>
             </div>
             <div class="footer-column">
                 <ul>

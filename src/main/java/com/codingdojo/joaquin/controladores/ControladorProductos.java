@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -165,6 +166,28 @@ public class ControladorProductos {
 		
 	}
 	
+	
+	@GetMapping("/agregarcarrito/{id}")
+	public String agregarcarrito(@PathVariable("id") Long id, HttpSession session) {
+		List<Object> carrito = (List<Object>) session.getAttribute("carrito");
+        if (carrito == null) {
+        	carrito = new ArrayList<>();
+            session.setAttribute("carrito", carrito);
+        }
+        
+        //Obtener el obj producto
+        Producto productoBuscado = serviciosProductos.encontrarProducto(id);
+        carrito.add(productoBuscado);
+        session.setAttribute("carrito", carrito);
+        
+        return "redirect:/verproducto/{id}";
+        
+	}
+	
+	@GetMapping("/carrito")
+	public String carrito() {
+		return "carrito.jsp";
+	}
 	
     
 }
