@@ -93,7 +93,7 @@
     			</div>       			
     		</div>   	
    	</div>    
-<footer class="footer-section">
+	<footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
                 <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
