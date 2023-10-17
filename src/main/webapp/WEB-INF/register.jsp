@@ -28,6 +28,29 @@
                 <form:label path="email">Correo:</form:label>
                 <form:input path="email"></form:input>
                 <form:errors path="email"></form:errors>
+                
+                <form:label path="direccion.region">Región:</form:label>
+                <form:input path="direccion.region"></form:input>
+                <form:errors path="direccion.region"></form:errors>
+                
+                
+                <form:label path="direccion.ciudad">Ciudad:</form:label>
+                <form:input path="direccion.ciudad"></form:input>
+                <form:errors path="direccion.ciudad"></form:errors>
+                
+                
+                
+                <form:label path="direccion.calle">Calle:</form:label>
+                <form:input path="direccion.calle"></form:input>
+                <form:errors path="direccion.calle"></form:errors>
+
+                
+
+                <form:label path="direccion.numero">Número:</form:label>
+                <form:input path="direccion.numero"></form:input>
+                <form:errors path="direccion.numero"></form:errors>
+
+                
 
                 <form:label path="password">Contraseña:</form:label>
                 <form:password path="password"></form:password>
@@ -36,6 +59,8 @@
                 <form:label path="confirmacion">Confirmar Contraseña:</form:label>
                 <form:password path="confirmacion"></form:password>
                 <form:errors path="confirmacion"></form:errors>
+                
+                
                 
 				
                 <input type="submit" class="enviar" value="Registrarse">

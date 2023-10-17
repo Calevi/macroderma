@@ -7,6 +7,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import com.codingdojo.joaquin.enumeraciones.Rol;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -16,6 +17,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
+import jakarta.persistence.OneToOne;
 import jakarta.persistence.PrePersist;
 import jakarta.persistence.PreUpdate;
 import jakarta.persistence.Table;
@@ -68,7 +70,18 @@ public class Usuario {
 	@OneToMany(mappedBy="usuario", fetch=FetchType.LAZY)
 	private List<Producto> producto;
 	
+	@OneToOne(cascade = CascadeType.ALL) // CascadeType.ALL asegura que las operaciones se propaguen a la entidad relacionada (en este caso, Direccion)
+    private Direccion direccion;
+	
 	public Usuario() {
+	}
+
+	public Direccion getDireccion() {
+		return direccion;
+	}
+
+	public void setDireccion(Direccion direccion) {
+		this.direccion = direccion;
 	}
 
 	public Long getId() {

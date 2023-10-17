@@ -14,7 +14,7 @@
 	            <c:choose>
 	                <c:when test="${usuarioEnSesion != null}">
 	                    <p><c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>Bienvenid@, ${usuarioEnSesion.nombre}</p>
-	                    <a href="/logout" class="logout-button">Cerrar Sesi�n</a>
+	                    <a href="/logout" class="logout-button">Cerrar Sesion</a>
 	                </c:when>
 	                <c:otherwise>
 	                    <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesion</a>

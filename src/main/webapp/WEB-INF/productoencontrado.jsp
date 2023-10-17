@@ -65,7 +65,7 @@
             <!-- Otras características del producto -->
             <div class="product-actions">
                 <!-- Botón para comprar -->
-                <a href="/realizarCompra?productoId=${producto.id}" class="buy-button">Comprar Ahora</a>
+                <a href="/checkout" class="buy-button">Comprar Ahora</a>
                 <!-- Botón para agregar al carrito -->
                 <a href="/agregarcarrito/${producto.id}" class="cart-button">Agregar al Carrito</a>
             </div>

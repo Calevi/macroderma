@@ -7,8 +7,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Editar producto</title>
-<link rel="stylesheet" href="CSS/dashboard.css">
-<link rel="stylesheet" href="CSS/formularioproducto.css">
+<link rel="stylesheet" href="/CSS/dashboard.css">
+<link rel="stylesheet" href="/CSS/formularioproducto.css">
 </head>
 <body>
 	    <header>

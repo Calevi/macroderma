@@ -185,7 +185,25 @@ public class ControladorProductos {
 	}
 	
 	@GetMapping("/carrito")
-	public String carrito() {
+	public String carrito(HttpSession session, Model model) {
+		
+		// Obtener la lista de productos en el carrito desde la sesión
+	    List<Producto> carrito = (List<Producto>) session.getAttribute("carrito");
+	    
+	    // Calcular el total de los precios en el carrito
+	    double total = 0;
+	    if (carrito != null) {
+	        for (Producto producto : carrito) {
+	            total += producto.getPrecio();
+	        }
+	    }
+	    
+	    // Pasar el carrito y el total al modelo
+	    model.addAttribute("carrito", carrito);
+	    model.addAttribute("total", total);
+	    
+
+		
 		return "carrito.jsp";
 	}
 	

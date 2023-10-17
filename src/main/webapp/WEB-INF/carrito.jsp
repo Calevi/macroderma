@@ -6,7 +6,9 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Carrito de compras</title>
- <link rel="stylesheet" href="CSS/dashboard.css">
+ <link rel="stylesheet" href="/CSS/dashboard.css">
+ <link rel="stylesheet" href="/CSS/carrito.css">
+ 
 </head>
 <body>
 	 <header>
@@ -29,11 +31,61 @@
             </div>
         </nav>
 	</header>
-	<c:forEach items="${carrito}" var="producto">
-		<div>
-			${producto.nombre}
-		</div>
-	</c:forEach>
+	
+	
+	<div class="columns">
+        <nav class="main-nav">
+            <ul>
+            	<li><a href="/"><img src="/img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
+                <li><a href="/tratamientos">Tratamientos</a></li>
+                <li><a href="/productos">Productos</a></li>
+                <li><a href="/nosotros">Nosotros</a></li>      
+            </ul>
+        </nav>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos...">
+            <button type="button">Buscar</button>
+        </div>
+        
+        <div class="cart">
+            <a href="/carrito"><img src="/img/carrito.png" alt="Carrito de compras"></a>
+            <span>${not empty carrito ? carrito.size() : 0}</span>
+        </div>
+    </div>
+	
+	
+	
+	
+	       <div class="cart-content">
+			    <c:choose>
+			        <c:when test="${not empty carrito}">
+			            <c:forEach items="${carrito}" var="producto">
+			                <div>
+			                    <img src="img/${producto.imagen}" alt="${producto.nombre}" class="imagenproducto">
+			                    <div class="product-info">
+			                        <h4>${producto.nombre}</h4>
+			                        <h4 id="precio">$${producto.precio} CLP</h4>
+			                    </div>
+			                </div>
+			            </c:forEach>
+			        </c:when>
+			        <c:otherwise>
+			            <div class="carritovacio">
+			                <h2 class="texto">No hay productos en tu carrito.</h2>
+			            </div>
+			        </c:otherwise>
+			    </c:choose>
+			</div>
+
+			<div class="total-container">
+		    <div class="total-label">Total:</div>
+		    <div class="total-amount">$${total} CLP</div>
+		    <a href="/checkout" class="checkout-button">Pagar</a>
+			</div>
+	
+	
+	
 	<footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
