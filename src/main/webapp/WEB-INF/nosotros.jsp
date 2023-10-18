@@ -55,32 +55,16 @@
     <div class="columns">
     		<div class="txtd">
     			<div>
-	    			<p>
-		   				En esta seccion presentamos que es macroderma y como surge en conjuntro a la presentacion de la fundadora directotra
-		   				o dueña de la pyme a la cual estamos apoyando con la creacion de la pagina web.
-		   				tambien se puede rellenar del cual es principal y el porque surgio
-		   				hbjcfdulhfvbafdikvnbferikvb írehnvgbirongbvuo9erhnqbvo´rejmbertnbp
-		   				eoftrunbe´troibjnrp0nboernjmb0rpoeijmnberoq
-		   				jer9obvneqr0+´binrebp0nero´qbinetrogvjnmrgvn
-		   				rjni0ogvnrew+ogvnjmr0pgvbnr+
-		   				rjeq0pg+ijmrp0gvrjmnq
-		   				frjm+0erpoigjerg+vj
-		   			</p>
-		   		</div>
-		   		<div>
-		   			<br>
-		   			<h3>Origen</h3>
-		   			<br>
 		   			<p>
-		   				Descripcion del Origen
-		   			</p>
-		   		</div>
-		   		<div>
-		   			<br>
-		   			<h3>¿Porque Nosostros?</h3>
-		   			<br>
-		   			<p>
-		   				Descripcion del Origen
+		   				En Macroderma Clinic, nos enorgullece ofrecer a nuestros pacientes una experiencia estética excepcional respaldada 
+		   				por una dedicación inquebrantable a la innovación y la excelencia. Nuestra clínica cuenta con un equipo de 
+		   				profesionales altamente especializados en una amplia gama de tratamientos estéticos, respaldados por las tecnologías 
+		   				más avanzadas. Nuestras instalaciones se destacan por su entorno acogedor y estéticamente atractivo, diseñado para 
+		   				brindar la máxima comodidad a nuestros pacientes. Además, nuestros profesionales se mantienen en constante 
+		   				capacitación en los mejores recintos y universidades, bajo la tutela de los más destacados especialistas. 
+		   				<br>
+		   				En Macroderma Clinic, nuestra principal prioridad es la satisfacción de nuestros clientes, y estamos comprometidos 
+		   				en ayudarles a sentirse y verse lo mejor posible.
 		   			</p>
 		   		</div>
 		   		<div>
