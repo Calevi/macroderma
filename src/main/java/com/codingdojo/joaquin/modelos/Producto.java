@@ -11,7 +11,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.PrePersist;
 import jakarta.persistence.PreUpdate;
@@ -19,6 +18,8 @@ import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
+
+
 
 @Entity
 @Table(name="productos")
@@ -55,7 +56,9 @@ public class Producto {
 	@DateTimeFormat(pattern="yyyy-MM-dd")
 	private Date updatedAt;
 	
-	
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "pedido_id")
+	private Pedido pedido;
 
 	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="usuario_id")
@@ -162,5 +165,13 @@ public class Producto {
 		this.updatedAt = new Date();
 	}
 	
+	public void vender(int cantidad) {
+	    if (stock >= cantidad) {
+	        stock -= cantidad;
+	    } else {
+	        // Manejar caso donde no hay suficiente stock para la venta
+	        throw new IllegalArgumentException("No hay suficiente stock para la venta.");
+	    }
+	}
 	
 }

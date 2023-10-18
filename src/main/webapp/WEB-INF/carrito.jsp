@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>    
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>    
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,10 +45,12 @@
             </ul>
         </nav>
         
-        <div class="search-bar">
-            <input type="text" placeholder="Buscar productos...">
-            <button type="button">Buscar</button>
-        </div>
+        <form action="/busqueda" method="get">
+		    <div class="search-bar">
+		        <input type="text" placeholder="Buscar productos..." name="nombre">
+		        <input type="submit" value="Buscar">
+		    </div>
+		</form>
         
         <div class="cart">
             <a href="/carrito"><img src="/img/carrito.png" alt="Carrito de compras"></a>
@@ -81,7 +85,12 @@
 			<div class="total-container">
 		    <div class="total-label">Total:</div>
 		    <div class="total-amount">$${total} CLP</div>
-		    <a href="/checkout" class="checkout-button">Pagar</a>
+		    
+		    <form:form action="/checkout" method="post" modelAttribute="nuevaCompra">
+		    <input type="hidden" value="${usuarioEnSesion.id}" path="usuario">
+		    <input type="hidden" value="${carrito}" path="productos">
+		    <input type="submit" class="checkout-button" value="Pagar"> 
+		    </form:form>
 			</div>
 	
 	

@@ -38,10 +38,12 @@
             </ul>
         </nav>
         
-        <div class="search-bar">
-            <input type="text" placeholder="Buscar productos...">
-            <button type="button">Buscar</button>
-        </div>
+        <form action="/busqueda" method="get">
+		    <div class="search-bar">
+		        <input type="text" placeholder="Buscar productos..." name="nombre">
+		        <input type="submit" value="Buscar">
+		    </div>
+		</form>
         
         <div class="cart">
             <a href="/carrito"><img src="/img/carrito.png" alt="Carrito de compras"></a>
@@ -64,7 +66,9 @@
                 <p>${producto.descripcion}</p>
                 
                 <span class="price">Precio: $${producto.precio} CLP</span>
-                <a href="#" class="buy-button">Comprar</a>
+                <form action="/checkout/${producto.id}" method="post" >
+                <button type="submit" class="buy-button">Comprar</button>
+                </form>
             </div>
         </c:forEach>
     </div>

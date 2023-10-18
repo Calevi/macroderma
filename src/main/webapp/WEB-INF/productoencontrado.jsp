@@ -42,10 +42,12 @@
             </ul>
         </nav>
         
-        <div class="search-bar">
-            <input type="text" placeholder="Buscar productos...">
-            <button type="button">Buscar</button>
-        </div>
+        <form action="/busqueda" method="get">
+		    <div class="search-bar">
+		        <input type="text" placeholder="Buscar productos..." name="nombre">
+		        <input type="submit" value="Buscar">
+		    </div>
+		</form>
         
         <div class="cart">
             <a href="/carrito"><img src="/img/carrito.png" alt="Carrito de compras"></a>
@@ -65,7 +67,10 @@
             <!-- Otras características del producto -->
             <div class="product-actions">
                 <!-- Botón para comprar -->
-                <a href="/checkout" class="buy-button">Comprar Ahora</a>
+                <form action="/checkout/${producto.id}" method="post">
+    <!-- Agrega otros campos del formulario si los necesitas -->
+    				<button type="submit" class="buy-button">Comprar Ahora</button>
+				</form>
                 <!-- Botón para agregar al carrito -->
                 <a href="/agregarcarrito/${producto.id}" class="cart-button">Agregar al Carrito</a>
             </div>

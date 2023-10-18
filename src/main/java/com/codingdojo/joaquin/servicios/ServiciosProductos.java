@@ -38,4 +38,7 @@ public class ServiciosProductos {
 	        return repoProductos.findByUsuario(usuario);
 	    }
 	
+	    public List<Producto> buscarPorNombre(String nombre) {
+	    	return repoProductos.findByNombreContaining(nombre);
+	    }
 }

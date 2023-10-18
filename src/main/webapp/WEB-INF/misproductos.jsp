@@ -39,10 +39,12 @@
             </ul>
         </nav>
         
-        <div class="search-bar">
-            <input type="text" placeholder="Buscar productos...">
-            <button type="button">Buscar</button>
-        </div>
+        <form action="/busqueda" method="get">
+		    <div class="search-bar">
+		        <input type="text" placeholder="Buscar productos..." name="nombre">
+		        <input type="submit" value="Buscar">
+		    </div>
+		</form>
         
         <div class="cart">
             <img src="img/carrito.png" alt="Carrito de compras">

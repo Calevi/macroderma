@@ -13,5 +13,7 @@ public interface RepositorioProductos extends CrudRepository<Producto, Long>{
 	
 	List<Producto> findByUsuario(Usuario usuario);
 	
+	List<Producto> findByNombreContaining(String nombre);
+	
 	
 }
