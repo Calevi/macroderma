@@ -52,26 +52,45 @@
     <h1>¿Que es Macroderma?</h1>
     <div class="columns">
     		<div class="txtd">
-    			
-    			<p>
-	   				En esta seccion presentamos que es macroderma y como surge en conjuntro a la presentacion de la fundadora directotra
-	   				o dueña de la pyme a la cual estamos apoyando con la creacion de la pagina web.
-	   				tambien se puede rellenar del cual es principal y el porque surgio
-	   				hbjcfdulhfvbafdikvnbferikvb írehnvgbirongbvuo9erhnqbvo´rejmbertnbp
-	   				eoftrunbe´troibjnrp0nboernjmb0rpoeijmnberoq
-	   				jer9obvneqr0+´binrebp0nero´qbinetrogvjnmrgvn
-	   				rjni0ogvnrew+ogvnjmr0pgvbnr+
-	   				rjeq0pg+ijmrp0gvrjmnq
-	   				frjm+0erpoigjerg+vj
-	   			</p>
-	   			<br>
-	   			<h3>¿Como Contactarnos?</h3>
-	   			<p>
-	   				contactanos al fono whatsapp +569 133 131 132 <%-- Solo es un ejemplo de numero, lo mismo con la direccion --%>
-	   				<br>
-	   				<i>(Solo whatsApp)</i>
-	   				
-	   			</p>
+    			<div>
+	    			<p>
+		   				En esta seccion presentamos que es macroderma y como surge en conjuntro a la presentacion de la fundadora directotra
+		   				o dueña de la pyme a la cual estamos apoyando con la creacion de la pagina web.
+		   				tambien se puede rellenar del cual es principal y el porque surgio
+		   				hbjcfdulhfvbafdikvnbferikvb írehnvgbirongbvuo9erhnqbvo´rejmbertnbp
+		   				eoftrunbe´troibjnrp0nboernjmb0rpoeijmnberoq
+		   				jer9obvneqr0+´binrebp0nero´qbinetrogvjnmrgvn
+		   				rjni0ogvnrew+ogvnjmr0pgvbnr+
+		   				rjeq0pg+ijmrp0gvrjmnq
+		   				frjm+0erpoigjerg+vj
+		   			</p>
+		   		</div>
+		   		<div>
+		   			<br>
+		   			<h3>Origen</h3>
+		   			<br>
+		   			<p>
+		   				Descripcion del Origen
+		   			</p>
+		   		</div>
+		   		<div>
+		   			<br>
+		   			<h3>¿Porque Nosostros?</h3>
+		   			<br>
+		   			<p>
+		   				Descripcion del Origen
+		   			</p>
+		   		</div>
+		   		<div>
+		   			<br>
+		   			<h3>¿Como Contactarnos?</h3>
+		   			<p>
+		   				contactanos al fono whatsapp +569 133 131 132 <%-- Solo es un ejemplo de numero, lo mismo con la direccion --%>
+		   				<br>
+		   				<i>(Solo whatsApp)</i>
+		   				
+		   			</p>
+		   		</div>
 	   		</div> 
 	    	<div class="fototext">
 		    	<div>	
@@ -86,7 +105,7 @@
 	    			<img class="foto" src="img/Belén.jpg" alt="enfermera">
 	    			<br>
 	   				<b> 
-	   					Belén Apellido. 
+	   					Belén Mendoza. 
 	   					<br>
 	   					TENS.
 	   				</b>    			
