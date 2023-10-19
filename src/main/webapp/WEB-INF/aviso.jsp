@@ -57,10 +57,10 @@
     
     <section class="legal">
         <h2>Aviso Legal</h2>
-        <p>SkinCare Chile es una empresa registrada en Chile bajo el nombre "Nombre de la Empresa SPA" y con domicilio en:</p>
-        <p>Dirección: Calle Ejemplo #1234, Santiago, Chile</p>
-        <p>Teléfono de Contacto: +56 9 1234 5678</p>
-        <p>Correo Electrónico: contacto@ejemplo.com</p>
+        <p>SkinCare Chile es una empresa registrada en Chile bajo el nombre "Ponce Vallejos SPA" o conocido mayormente como MACRODERMA CLINIC, RUT:77.433.803-9</p>
+        <p>Dirección: Calle Rosas #219, Chillan, Diguillin, Chile.</p>
+        <p>Teléfono de Contacto: +56 9 3387 6798</p>
+        <p>Correo Electrónico: poncevallejoskatherine@gmail.com</p>
 
         <p>Este sitio web es propiedad de SkinCare Chile y su uso está sujeto a los siguientes términos y condiciones:</p>
     </section>
