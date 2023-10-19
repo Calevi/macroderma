@@ -57,7 +57,7 @@
         <div class="hero-content">
             <h1>Bienvenido a Nuestra Tienda de Cuidado de la Piel</h1>
             <p>Descubre nuestra amplia gama de productos de cuidado de la piel para lucir radiante y saludable todos los días.</p>
-            <a href="#productos" class="cta-button">Explora nuestros productos</a>
+            <a href="/productos" class="cta-button">Explora nuestros productos</a>
         </div>
     </section>
     <section class="feature-section">

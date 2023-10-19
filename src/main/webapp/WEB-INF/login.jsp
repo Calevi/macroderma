@@ -8,7 +8,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Inicio de sesion</title>
-<link rel="stylesheet" href="CSS/css1.css">
+<link rel="stylesheet" href="/CSS/css1.css">
 </head>
 <body>
 	   <div class="container">
