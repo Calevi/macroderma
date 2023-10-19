@@ -71,9 +71,9 @@
 		   			<br>
 		   			<h3>¿Como Contactarnos?</h3>
 		   			<p>
-		   				contactanos al fono whatsapp +569 133 131 132 <%-- Solo es un ejemplo de numero, lo mismo con la direccion --%>
+		   				contactanos al fono whatsapp +56 9 3387 6798 <i>Solo Whatsapp</i>
+		   				<p> o a traves de nuestro <a href= "https://www.instagram.com/macroderma/" target="_blank" >instagram</a> <%-- Solo es un ejemplo de numero, lo mismo con la direccion --%>
 		   				<br>
-		   				<i>(Solo whatsApp)</i>
 		   				
 		   			</p>
 		   		</div>

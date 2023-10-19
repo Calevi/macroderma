@@ -71,7 +71,7 @@
         <p>Nos reservamos el derecho de modificar estas condiciones en cualquier momento. Es tu responsabilidad revisarlas periódicamente para estar al tanto de cualquier cambio.</p>
 
         <h3>5. Contacto</h3>
-        <p>Si tienes preguntas o comentarios sobre estas condiciones, puedes <a href="contacto.html">contactarnos</a>.</p>
+        <p>Si tienes preguntas o comentarios sobre estas condiciones, puedes <a href="/nosotros">contactarnos</a>.</p>
     </section>
 
    <footer class="footer-section">

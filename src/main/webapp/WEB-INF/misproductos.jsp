@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="CSS/dashboard.css">
 <meta charset="ISO-8859-1">
 <title>Mis Productos</title>
+<link rel="stylesheet" href="CSS/dashboard.css">
 </head>
 <body>
 
