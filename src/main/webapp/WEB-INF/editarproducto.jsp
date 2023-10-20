@@ -17,7 +17,7 @@
                 <c:choose>
                     <c:when test="${usuarioEnSesion != null}">
                         <p><c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>Bienvenid@, ${usuarioEnSesion.nombre}</p>
-                        <a href="/logout" class="logout-button">Cerrar Sesi�n</a>
+                        <a href="/logout" class="logout-button">Cerrar Sesion</a>
                         <!-- Agrega enlaces para administradores -->
                         <c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">
                             <a href="/misproductos" class="dashboard-link">Ver Mis Productos</a>
@@ -25,7 +25,7 @@
                         </c:if>
                     </c:when>
                     <c:otherwise>
-                        <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesi�n</a>
+                        <a href="/registrarse" class="inicioregistro">Registrarse</a><p>|</p><a href="/login" class="inicioregistro">Iniciar Sesion</a>
                     </c:otherwise>
                 </c:choose>
             </div>
@@ -94,7 +94,7 @@
 				<a href="https://www.instagram.com/macroderma/" target="_blank"><img src="/img/instagram.png" alt="Instagram"></a>
     		</div>
     		<div class="social-button-container">
-        		<a href="https://wa.me/+56933876798" target="_blank"><img src=""/img/wtsp.png" alt="WhatsApp"></a>
+        		<a href="https://wa.me/+56933876798" target="_blank"><img src="/img/wtsp.png" alt="WhatsApp"></a>
     		</div>
 		</div>
     </footer>

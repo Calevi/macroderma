@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
-    <link rel="stylesheet" href="CSS/nos.css">
-    <link rel="stylesheet" href="CSS/dashboard.css">
+    <link rel="stylesheet" href="/CSS/nos.css">
+    <link rel="stylesheet" href="/CSS/dashboard.css">
 </head>
 <body>
     <header>
@@ -15,7 +15,7 @@
                 <c:choose>
                     <c:when test="${usuarioEnSesion != null}">
                         <p><c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>Bienvenid@, ${usuarioEnSesion.nombre}</p>
-                        <a href="/logout" class="logout-button">Cerrar Sesiï¿½n</a>
+                        <a href="/logout" class="logout-button">Cerrar Sesion</a>
                         <!-- Agrega enlaces para administradores -->
                         <c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">
                             <a href="/misproductos" class="dashboard-link">Ver Mis Productos</a>
@@ -23,7 +23,7 @@
                         </c:if>
                     </c:when>
                     <c:otherwise>
-                        <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesiï¿½n</a>
+                        <a href="/registrarse" class="inicioregistro">Registrarse</a><p>|</p><a href="/login" class="inicioregistro">Iniciar Sesion</a>
                     </c:otherwise>
                 </c:choose>
             </div>
@@ -51,7 +51,7 @@
             <span>${not empty carrito ? carrito.size() : 0}</span>
         </div>
     </div>
-    <h1>Â¿QuÃ© es Macroderma?</h1>
+    <h1>¿Que es Macroderma?</h1>
     
     	<div class="image-container">
     	
@@ -69,10 +69,10 @@
 	        
 		        <div class="txtd">
 		            <p>
-		                En Macroderma Clinic, nos enorgullece ofrecer a nuestros pacientes una experiencia estÃ©tica excepcional respaldada por una dedicaciÃ³n inquebrantable a la innovaciÃ³n y la excelencia. Nuestra clÃ­nica cuenta con un equipo de profesionales altamente especializados en una amplia gama de tratamientos estÃ©ticos, respaldados por las tecnologÃ­as mÃ¡s avanzadas. Nuestras instalaciones se destacan por su entorno acogedor y estÃ©ticamente atractivo, diseÃ±ado para brindar la mÃ¡xima comodidad a nuestros pacientes. AdemÃ¡s, nuestros profesionales se mantienen en constante capacitaciÃ³n en los mejores recintos y universidades, bajo la tutela de los mÃ¡s destacados especialistas.
+		            En Macroderma Clinic, nos enorgullece ofrecer a nuestros pacientes una experiencia estética excepcional respaldada por una dedicación inquebrantable a la innovación y la excelencia. Nuestra clínica cuenta con un equipo de profesionales altamente especializados en una amplia gama de tratamientos estéticos, respaldados por las tecnologías más avanzadas. Nuestras instalaciones se destacan por su entorno acogedor y estéticamente atractivo, diseñado para brindar la máxima comodidad a nuestros pacientes. Además, nuestros profesionales se mantienen en constante capacitación en los mejores recintos y universidades, bajo la tutela de los más destacados especialistas.
 		            </p>
-		            <h3>Â¿CÃ³mo Contactarnos?</h3>
-		            <p>Contactanos al +56 9 3387 6798 <i>Solo Whatsapp</i> o a travÃ©s de nuestro <a href="https://www.instagram.com/macroderma/" target="_blank">Instagram</a></p>
+		            <h3>¿Cómo Contactarnos?</h3>
+		            <p>Contactanos al +56 9 3387 6798 <i>Solo Whatsapp</i> o a través de nuestro <a href="https://www.instagram.com/macroderma/" target="_blank">Instagram.</a></p>
 		        </div>
 		        <div class="fototext">
 		            <div>
@@ -85,43 +85,44 @@
 		            <div>
 		                <img class="foto" src="img/Belen.jpg" alt="Enfermera">
 		                <br>
-		                <b>BelÃ©n Paredes.</b>
+		                <b>Belén Paredes.</b>
 		                <br>
 		                TENS.
 		            </div>
 		        </div>
 	    </div>
 	    <footer class="footer-section">
-		        <div class="footer-content">
-		            <div class="footer-column">
-		                <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
-		            </div>
-		            <div class="footer-column">
-		                <ul>
-		                    <li>Macroderma estetica - All rights reserved.</li>
-		                    <li><img src="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
-		                    <li><img src="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
-		                </ul>
-		            </div>
-		            <div class="footer-column">
-		                <h4>PÃ¡ginas Legales</h4>
-		                <ul>
-		                    <li><a href="/PyP">PolÃ­tica de Privacidad</a></li>
-		                    <li><a href="/condiciones">Condiciones de uso</a></li>
-		                    <li><a href="/aviso">Aviso Legal</a></li>
-		                </ul>
-		            </div>
-		        </div>
-	        
-	        <div class="social-section">
-	            <div class="social-button-container">
-	                <a href="https://www.instagram.com/macroderma/" target="_blank"><img src="/img/instagram.png" alt="Instagram"></a>
-	            </div>
-	            <div class="social-button-container">
-	                <a href="https://wa.me/+56933876798" target="_blank"><img src="/img/wtsp.png" alt="WhatsApp"></a>
-	            </div>
-	        </div>
-	        
-    	</footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
+            </div>
+            <div class="footer-column">
+                <ul>
+                    <li>Macroderma estetica - All rights reserved.</li>
+                    <li><img src="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
+                    <li><img src="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Paginas Legales</h4>
+                <ul>
+                    <li><a href="/PyP">Politica de Privacidad</a></li>
+                    <li><a href="/condiciones">Condiciones de uso</a></li>
+                    <li><a href="/aviso">Aviso Legal</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+		<div class="social-section">
+    		<div class="social-button-container">
+				<a href="https://www.instagram.com/macroderma/" target="_blank"><img src="/img/instagram.png" alt="Instagram"></a>
+    		</div>
+    		<div class="social-button-container">
+        		<a href="https://wa.me/+56933876798" target="_blank"><img src="/img/wtsp.png" alt="WhatsApp"></a>
+    		</div>
+		</div>
+
+    </footer>
 </body>
 </html>
