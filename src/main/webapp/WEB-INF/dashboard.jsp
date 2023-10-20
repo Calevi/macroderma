@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Cuidado de la piel</title>
+    <title>Macroderma</title>
     <link rel="stylesheet" href="CSS/dashboard.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
                 <c:choose>
                     <c:when test="${usuarioEnSesion != null}">
                         <p><c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>Bienvenid@, ${usuarioEnSesion.nombre}</p>
-                        <a href="/logout" class="logout-button">Cerrar Sesi�n</a>
+                        <a href="/logout" class="logout-button">Cerrar Sesión</a>
                         <!-- Agrega enlaces para administradores -->
                         <c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">
                             <a href="/misproductos" class="dashboard-link">Ver Mis Productos</a>
@@ -55,15 +55,18 @@
     </div>
     <section class="hero">
         <div class="hero-content">
-            <h1>Bienvenido a Nuestra Tienda de Cuidado de la Piel</h1>
+            <h1>Bienvenido a Macroderma:
+            Donde la belleza se encuentra con la excelencia</h1>
+            
             <p>Descubre nuestra amplia gama de productos de cuidado de la piel para lucir radiante y saludable todos los d�as.</p>
             <a href="/productos" class="cta-button">Explora nuestros productos</a>
         </div>
     </section>
     <section class="feature-section">
         <div class="feature-image">
-            <img src="https://www.topdoctors.mx/files/Image/large/14dc75abcfecc85167564fdecd531666.jpg" alt="Imagen de Destacado">
+            <img src="/img/uno.png" alt="Imagen de Destacado">
         </div>
+        
         <div class="feature-content">
             <h2>Descubre Nuestros Servicios de Cuidado de la Piel</h2>
             <p>Somos una tienda especializada en productos y tratamientos de cuidado de la piel. Ofrecemos una amplia gama de productos de alta calidad para ayudarte a mantener tu piel saludable y radiante. Nuestros expertos en cuidado de la piel est�n aqu� para ayudarte a encontrar los mejores tratamientos para tus necesidades.</p>
@@ -71,15 +74,15 @@
         </div>
     </section>
     <section class="gallery-section">
-        <h2>Galer�a de Im�genes</h2>
+        <h2>Galería de Imágenes</h2>
         <div class="image-gallery">
             <img src="/img/1.PNG" alt="Tratamiento de aumento de labios con acido hyaluronico">
-        	</img src="img/2.png" alt="Tratamiento de arminizacion facial con acido hyaluronico">
-        	</img src="img/9.jpg" alt="Tratamiento con toxina botulinica">
-        	</img src="img/3.png" alt="Tratamiento con toxina botulinica en frente">
-        	</img src="img/4.png" alt="Tratamiento criolipolisis">
-        	</img src="img/7.png" alt="Tratamiento de aumento de labios con acido hyaluronico">
-        	</img src="img/8.png" alt="Tratamiento de aumento de rinomodelacion con acido hyaluronico">
+        	<img src="/img/2.png" alt="Tratamiento de arminizacion facial con acido hyaluronico">
+        	<img src="/img/9.jpg" alt="Tratamiento con toxina botulinica">
+        	<img src="/img/3.png" alt="Tratamiento con toxina botulinica en frente">
+        	<img src="/img/4.png" alt="Tratamiento criolipolisis">
+        	<img src="/img/7.png" alt="Tratamiento de aumento de labios con acido hyaluronico">
+        	<img src="/img/8.png" alt="Tratamiento de aumento de rinomodelacion con acido hyaluronico">
 			<img src="/img/5.png" alt="Tratamiento criolipolisis">
 			<img src="/img/6.png" alt="Tratamiento de depilación, torso de hombre">
         </div>
@@ -91,7 +94,7 @@
             </div>
             <div class="footer-column">
                 <ul>
-                    <li>MacroDerma estetica � All rights reserved.</li>
+                    <li>Macroderma estetica � All rights reserved.</li>
                     <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
                     <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
                 </ul>
