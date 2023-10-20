@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="CSS/dashboard.css">
 </head>
 <body>
-	    <header>
+    <header>
         <nav>
             <div class="header">
                 <c:choose>
@@ -22,7 +22,7 @@
                         </c:if>
                     </c:when>
                     <c:otherwise>
-                        <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesi�n</a>
+                        <a href="/registrarse" class="inicioregistro">Registrarse</a><p>|</p><a href="/login" class="inicioregistro">Iniciar Sesi�n</a>
                     </c:otherwise>
                 </c:choose>
             </div>
@@ -32,22 +32,20 @@
     <div class="columns">
         <nav class="main-nav">
             <ul>
-            	<li><a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
+                <li><a href="/"><img src="img/cropped-IMG_2592.png" alt="Tu Logo" class="logonegro"></a></li>
                 <li><a href="/tratamientos">Tratamientos</a></li>
                 <li><a href="/productos">Productos</a></li>
-                <li><a href="/nosotros">Nosotros</a></li>      
+                <li><a href="/nosotros">Nosotros</a></li>
             </ul>
         </nav>
-        
+
         <form action="/busqueda" method="get">
-		    <div class="search-bar">
-		        <input type="text" placeholder="Buscar productos..." name="nombre">
-		        <input type="submit" value="Buscar">
-		    </div>
-		</form>
-        
-        
-        
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar productos..." name="nombre">
+                <input type="submit" value="Buscar">
+            </div>
+        </form>
+
         <div class="cart">
             <a href="/carrito"><img src="/img/carrito.png" alt="Carrito de compras"></a>
             <span>${not empty carrito ? carrito.size() : 0}</span>
@@ -57,8 +55,8 @@
         <div class="hero-content">
             <h1>Bienvenido a Macroderma:
             Donde la belleza se encuentra con la excelencia</h1>
-            
-            <p>Descubre nuestra amplia gama de productos de cuidado de la piel para lucir radiante y saludable todos los d�as.</p>
+
+            <p>Descubre nuestra amplia gama de productos de cuidado de la piel para lucir radiante y saludable todos los días.</p>
             <a href="/productos" class="cta-button">Explora nuestros productos</a>
         </div>
     </section>
@@ -66,55 +64,57 @@
         <div class="feature-image">
             <img src="/img/uno.png" alt="Imagen de Destacado">
         </div>
-        
-        <div class="feature-content">
+
+        <div class "feature-content">
             <h2>Descubre Nuestros Servicios de Cuidado de la Piel</h2>
-            <p>Somos una tienda especializada en productos y tratamientos de cuidado de la piel. Ofrecemos una amplia gama de productos de alta calidad para ayudarte a mantener tu piel saludable y radiante. Nuestros expertos en cuidado de la piel est�n aqu� para ayudarte a encontrar los mejores tratamientos para tus necesidades.</p>
+            <p>Somos una tienda especializada en productos y tratamientos de cuidado de la piel. Ofrecemos una amplia gama de productos de alta calidad para ayudarte a mantener tu piel saludable y radiante. Nuestros expertos en cuidado de la piel están aquí para ayudarte a encontrar los mejores tratamientos para tus necesidades.</p>
             <a href="/tratamientos" class="cta-button">Ver tratamientos</a>
         </div>
     </section>
     <section class="gallery-section">
         <h2>Galería de Imágenes</h2>
         <div class="image-gallery">
-            <img src="/img/1.PNG" alt="Tratamiento de aumento de labios con acido hyaluronico">
-        	<img src="/img/2.png" alt="Tratamiento de arminizacion facial con acido hyaluronico">
-        	<img src="/img/9.jpg" alt="Tratamiento con toxina botulinica">
-        	<img src="/img/3.png" alt="Tratamiento con toxina botulinica en frente">
-        	<img src="/img/4.png" alt="Tratamiento criolipolisis">
-        	<img src="/img/7.png" alt="Tratamiento de aumento de labios con acido hyaluronico">
-        	<img src="/img/8.png" alt="Tratamiento de aumento de rinomodelacion con acido hyaluronico">
-			<img src="/img/5.png" alt="Tratamiento criolipolisis">
-			<img src="/img/6.png" alt="Tratamiento de depilación, torso de hombre">
+            <img src="/img/labios.png" alt="Tratamiento de aumento de labios con ácido hialurónico">
+            <img src="/img/armonizacion.png" alt="Tratamiento de armonización facial con ácido hialurónico">
+            <img src="/img/botox.png" alt="Tratamiento con toxina botulínica en frente">
+            <img src="/img/criolipolisis.png" alt="Tratamiento criolipólisis">
+            <img src="/img/labios2.png" alt="Tratamiento de aumento de labios con ácido hialurónico">
+            <img src="/img/nariz.png" alt="Tratamiento de rinomodelación con ácido hialurónico">
+            <img src="/img/depilacion.png" alt="Tratamiento de depilación, torso de hombre">
         </div>
     </section>
-<footer class="footer-section">
+    <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
                 <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
             </div>
             <div class="footer-column">
                 <ul>
-                    <li>Macroderma estetica � All rights reserved.</li>
-                    <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
-                    <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
+                    <li>Macroderma estética - All rights reserved.</li>
+                    <li><img src="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
+                    <li><img src="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>P�ginas Legales</h4>
+                <h4>Páginas Legales</h4>
                 <ul>
-                    <li><a href="/PyP">Pol�tica de Privacidad</a></li>
+                    <li><a href="/PyP">Política de Privacidad</a></li>
                     <li><a href="/condiciones">Condiciones de uso</a></li>
                     <li><a href="/aviso">Aviso Legal</a></li>
                 </ul>
             </div>
         </div>
-        <div class="social-section">
-            <h4>S�guenos en Instagram</h4>
-            <div class="social-buttons">
-                <a href="https://www.instagram.com/macroderma/" class="social-button instagram" target="_blank">Instagram</a>  
-                <a href="https://wa.me/+56933876798" class="social-button whatsapp" target="_blank">WhatsApp</a>          
-            </div>
-        </div>
+
+
+		<div class="social-buttons">
+    		<div class="social-button-container">
+				<a href="https://www.instagram.com/macroderma/" target="_blank"><img src="/img/instagram.png" alt="Instagram"></a>
+    		</div>
+    		<div class="social-button-container">
+        		<a href="https://wa.me/+56933876798" target="_blank"><img src=""/img/wtsp.png" alt="WhatsApp"></a>
+    		</div>
+		</div>
+
     </footer>
 </body>
 </html>
