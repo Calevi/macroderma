@@ -55,41 +55,48 @@
     <section class="products">
         <!-- Contenido de la secciï¿½n de productos -->
         <div class="product">
-            <img src="" alt="Producto 1">
-            <h3>Botox</h3>
-            <p>Descripcion del Producto 1.</p>
-            <span class="price">$99.99</span>
-            <a href="#" class="buy-button">Comprar</a>
+            <img src="/img/ACIDOHIALURONICO.jpeg" alt="Producto 1">
+            <h3>Acido Hialuronico</h3>
+            <p> Ofrecemos tratamientos que utilizan ácido hialurónico para restaurar la hidratación, firmeza, luminosidad y volumen en el cuerpo. Para recuperar lo perdido, ofrecemos tratamientos de:
+
+				Aumento de labios
+				Rinomodelación
+				Pómulos
+				Marcación mandibular
+				Relleno de temporales
+				Mentón
+				Relleno de surcos
+				Código de barras
+				Relleno de ojeras
+				
+			</p>
+            <a href="#" class="buy-button">Contratar</a>
         </div>
 
         <div class="product">
-            <img src="https://us.123rf.com/450wm/pitinan/pitinan1806/pitinan180600494/104972017-hermosa-mujer-con-un-tratamiento-de-exfoliaci%C3%B3n-cosm%C3%A9tica-facial-de-un-dermat%C3%B3logo-profesional-en-un.jpg?ver=6" alt="Producto 2">
-            <h3>Hilos tensores</h3>
-            <p>Descripcion del Producto 2.</p>
-            <span class="price">$79.99</span>
-            <a href="#" class="buy-button">Comprar</a>
+            <img src="/img/TOXINABOTULINICA.jpeg">
+            <h3>Toxina Botulinica</h3>
+            <p> Ofrecemos la inoculación de toxina botulínica (Botox) para relajar los músculos causantes de las líneas de expresión. Es un procedimiento ambulatorio, rápido y sin dolor que mejora gradualmente la calidad de la piel al restaurar el colágeno. Se administra mediante pequeñas inyecciones en el consultorio médico, bloqueando temporalmente los impulsos nerviosos en los músculos tratados, lo que reduce visiblemente las arrugas y líneas de expresión.</p>
+            <a href="#" class="buy-button">Contratar</a>
         </div>
 
         <div class="product">
-            <img src="" alt="Producto 1">
-            <h3>Botox</h3>
-            <p>Descripcion del Producto 1.</p>
-            <span class="price">$99.99</span>
-            <a href="#" class="buy-button">Comprar</a>
+            <img src="/img/DEPILACIONLASERDIODO.jpeg">
+            <h3>Depilacion Laser Diodo</h3>
+            <p>Ofrecemos un tratamiento revolucionario de depilación láser de diodo de alta potencia con un láser europeo único equipado con un sistema VCSEL. Este sistema reduce los efectos secundarios hasta en un 90% y duplica la efectividad del tratamiento. La depilación láser de diodo de alta potencia elimina permanentemente el vello no deseado desde la raíz, sin dañar la piel circundante. Es una solución versátil y segura que se puede utilizar durante todo el año y temporada.</p>
+            <a href="#" class="buy-button">Contratar</a>
         </div>
         <div class="product">
-            <img src="" alt="Producto 1">
-            <h3>Botox</h3>
-            <p>Descripcion del Producto 1.</p>
-            <span class="price">$99.99</span>
-            <a href="#" class="buy-button">Comprar</a>
+            <img src="/img/BIOESTIMULADORESFACIALES.jpeg">
+            <h3>Bioestimuladores Faciales</h3>
+            <p>Consiste en inyectar productos que actúan a nivel celular estimulando la producción de colágeno, elastina y ácido hialurónico. Esto genera un rejuvenecimiento facial con efectos duraderos, ya que nuestro cuerpo produce sus propios factores de crecimiento. Los bioestimuladores faciales proporcionan un efecto de relleno, luminosidad, reducción de líneas de expresión, disminución de surcos y corrección de ojeras, ayudando a recuperar la juventud del rostro. La duración aproximada de los resultados es de 24 meses. Además, ofrecen un efecto de lifting facial sin necesidad de cirugía.</p>
+            <a href="#" class="buy-button">Contratar</a>
         </div>
         <div class="product">
-            <img src="" alt="Producto 1">
-            <h3>Botox</h3>
-            <p>Descripcion del Producto 1.</p>
-            <span class="price">$99.99</span>
-            <a href="#" class="buy-button">Comprar</a>
+            <img src="/img/HILOSTENSORES.jpeg">
+            <h3>Hilos Tensores</h3>
+            <p>Estos hilos se colocan debajo de la piel para generar un efecto tensor que estimula la producción de colágeno, brindando firmeza y mejorando la apariencia del rostro. Es un procedimiento de lifting facial sin cirugía.</p>
+            <a href="#" class="buy-button">Contratar</a>
         </div>
     </section>
  <footer class="footer-section">
