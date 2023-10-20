@@ -47,7 +47,8 @@
     </div>
     <section class="hero">
         <div class="hero-content">
-            <h1>Bienvenido a Nuestra Tienda de Cuidado de la Piel</h1>
+            <h1>Bienvenido a Macroderma:
+            Donde la belleza se encuentra con la excelencia</h1>
             <p>Descubre nuestra amplia gama de tratamientos sobre cuidado de la piel para lucir radiante y saludable todos los dias.</p>
             <a href="#productos" class="cta-button">Explora nuestros tratamientos</a>
         </div>
@@ -106,27 +107,28 @@
             </div>
             <div class="footer-column">
                 <ul>
-                    <li>MacroDerma estetica © All rights reserved.</li>
+                    <li>MacroDerma estetica ï¿½ All rights reserved.</li>
                     <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
                     <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>Páginas Legales</h4>
+                <h4>Pï¿½ginas Legales</h4>
                 <ul>
-                    <li><a href="/PyP">Política de Privacidad</a></li>
+                    <li><a href="/PyP">Polï¿½tica de Privacidad</a></li>
                     <li><a href="/condiciones">Condiciones de uso</a></li>
                     <li><a href="/aviso">Aviso Legal</a></li>
                 </ul>
             </div>
         </div>
         <div class="social-section">
-            <h4>Síguenos en Instagram</h4>
-            <div class="social-buttons">
-                <a href="https://www.instagram.com/macroderma/" class="social-button instagram" target="_blank">Instagram</a>  
-                <a href="https://wa.me/+56933876798" class="social-button whatsapp" target="_blank">WhatsApp</a>          
-            </div>
-        </div>
+    		<div class="social-button-container">
+				<a href="https://www.instagram.com/macroderma/" target="_blank"><img src="/img/instagram.png" alt="Instagram"></a>
+    		</div>
+    		<div class="social-button-container">
+        		<a href="https://wa.me/+56933876798" target="_blank"><img src=""/img/wtsp.png" alt="WhatsApp"></a>
+    		</div>
+		</div>
     </footer>
 </body>
 </html>
