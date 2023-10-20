@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Políticas y Privacidad - SkinCare Chile</title>
+    <title>Polï¿½ticas y Privacidad - SkinCare Chile</title>
     <link rel="stylesheet" href="CSS/dashboard.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
                 <c:choose>
                     <c:when test="${usuarioEnSesion != null}">
                         <p><c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>Bienvenid@, ${usuarioEnSesion.nombre}</p>
-                        <a href="/logout" class="logout-button">Cerrar Sesión</a>
+                        <a href="/logout" class="logout-button">Cerrar Sesiï¿½n</a>
                         <!-- Agrega enlaces para administradores -->
                         <c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">
                             <a href="/misproductos" class="dashboard-link">Ver Mis Productos</a>
@@ -24,7 +24,7 @@
                         </c:if>
                     </c:when>
                     <c:otherwise>
-                        <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesión</a>
+                        <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesiï¿½n</a>
                     </c:otherwise>
                 </c:choose>
             </div>
@@ -59,21 +59,21 @@
         </div>
     </section>
     <section class="policy">
-        <!-- Contenido de la sección de políticas y privacidad -->
-        <h2>Políticas y Privacidad</h2>
-        <p>En SkinCare Chile, nos preocupamos por la privacidad y la seguridad de nuestros clientes. A continuación, se describen nuestras políticas y prácticas de privacidad:</p>
+        <!-- Contenido de la secciï¿½n de polï¿½ticas y privacidad -->
+        <h2>Polï¿½ticas y Privacidad</h2>
+        <p>En SkinCare Chile, nos preocupamos por la privacidad y la seguridad de nuestros clientes. A continuaciï¿½n, se describen nuestras polï¿½ticas y prï¿½cticas de privacidad:</p>
 
-        <h3>Recopilación de Información Personal</h3>
-        <p>Recopilamos información personal de nuestros clientes, como nombre, dirección y correo electrónico, con el único propósito de procesar y enviar pedidos. No compartimos esta información con terceros.</p>
+        <h3>Recopilaciï¿½n de Informaciï¿½n Personal</h3>
+        <p>Recopilamos informaciï¿½n personal de nuestros clientes, como nombre, direcciï¿½n y correo electrï¿½nico, con el ï¿½nico propï¿½sito de procesar y enviar pedidos. No compartimos esta informaciï¿½n con terceros.</p>
 
         <h3>Cookies</h3>
-        <p>Utilizamos cookies para mejorar la experiencia de navegación de nuestros usuarios. Estas cookies no almacenan información personal y se utilizan solo con fines estadísticos y de análisis.</p>
+        <p>Utilizamos cookies para mejorar la experiencia de navegaciï¿½n de nuestros usuarios. Estas cookies no almacenan informaciï¿½n personal y se utilizan solo con fines estadï¿½sticos y de anï¿½lisis.</p>
 
         <h3>Seguridad</h3>
-        <p>Tomamos medidas para proteger la información personal de nuestros clientes. Utilizamos protocolos de seguridad estándar de la industria para garantizar la confidencialidad de los datos.</p>
+        <p>Tomamos medidas para proteger la informaciï¿½n personal de nuestros clientes. Utilizamos protocolos de seguridad estï¿½ndar de la industria para garantizar la confidencialidad de los datos.</p>
 
         <h3>Contacto</h3>
-        <p>Si tienes alguna pregunta o inquietud sobre nuestras políticas de privacidad, no dudes en <a href="contacto.html">contactarnos</a>.</p>
+        <p>Si tienes alguna pregunta o inquietud sobre nuestras polï¿½ticas de privacidad, no dudes en <a href="contacto.html">contactarnos</a>.</p>
     </section>
 
     <footer class="footer-section">
@@ -83,27 +83,28 @@
             </div>
             <div class="footer-column">
                 <ul>
-                    <li>MacroDerma estetica © All rights reserved.</li>
+                    <li>MacroDerma estetica ï¿½ All rights reserved.</li>
                     <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
                     <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>Páginas Legales</h4>
+                <h4>Pï¿½ginas Legales</h4>
                 <ul>
-                    <li><a href="/PyP">Política de Privacidad</a></li>
+                    <li><a href="/PyP">Polï¿½tica de Privacidad</a></li>
                     <li><a href="/condiciones">Condiciones de uso</a></li>
                     <li><a href="/aviso">Aviso Legal</a></li>
                 </ul>
             </div>
         </div>
         <div class="social-section">
-            <h4>Síguenos en Instagram</h4>
-            <div class="social-buttons">
-                <a href="https://www.instagram.com/macroderma/" class="social-button instagram" target="_blank">Instagram</a>  
-                <a href="https://wa.me/+56933876798" class="social-button whatsapp" target="_blank">WhatsApp</a>          
-            </div>
-        </div>
+    		<div class="social-button-container">
+				<a href="https://www.instagram.com/macroderma/" target="_blank"><img src="/img/instagram.png" alt="Instagram"></a>
+    		</div>
+    		<div class="social-button-container">
+        		<a href="https://wa.me/+56933876798" target="_blank"><img src=""/img/wtsp.png" alt="WhatsApp"></a>
+    		</div>
+		</div>
     </footer>
 </body>
 </html>

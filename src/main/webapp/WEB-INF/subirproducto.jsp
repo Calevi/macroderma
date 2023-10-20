@@ -90,12 +90,13 @@
             </div>
         </div>
         <div class="social-section">
-            <h4>Síguenos en Instagram</h4>
-            <div class="social-buttons">
-                <a href="https://www.instagram.com/macroderma/" class="social-button instagram" target="_blank">Instagram</a>  
-                <a href="https://wa.me/+56933876798" class="social-button whatsapp" target="_blank">WhatsApp</a>          
-            </div>
-        </div>
+    		<div class="social-button-container">
+				<a href="https://www.instagram.com/macroderma/" target="_blank"><img src="/img/instagram.png" alt="Instagram"></a>
+    		</div>
+    		<div class="social-button-container">
+        		<a href="https://wa.me/+56933876798" target="_blank"><img src=""/img/wtsp.png" alt="WhatsApp"></a>
+    		</div>
+		</div>
     </footer>
 </body>
 </html>

@@ -65,11 +65,11 @@
             <img src="/img/uno.png" alt="Imagen de Destacado">
         </div>
 
-        <div class "feature-content">
-            <h2>Descubre Nuestros Servicios de Cuidado de la Piel</h2>
-            <p>Somos una tienda especializada en productos y tratamientos de cuidado de la piel. Ofrecemos una amplia gama de productos de alta calidad para ayudarte a mantener tu piel saludable y radiante. Nuestros expertos en cuidado de la piel están aquí para ayudarte a encontrar los mejores tratamientos para tus necesidades.</p>
-            <a href="/tratamientos" class="cta-button">Ver tratamientos</a>
-        </div>
+	        <div class "feature-content">
+	            <h2>Descubre Nuestros Servicios de Cuidado de la Piel</h2>
+	            <p>Somos una tienda especializada en productos y tratamientos de cuidado de la piel. Ofrecemos una amplia gama de productos de alta calidad para ayudarte a mantener tu piel saludable y radiante. Nuestros expertos en cuidado de la piel están aquí para ayudarte a encontrar los mejores tratamientos para tus necesidades.</p>
+	            <a href="/tratamientos" class="cta-button">Ver tratamientos</a>
+	        </div>
     </section>
     <section class="gallery-section">
         <h2>Galería de Imágenes</h2>
@@ -106,7 +106,7 @@
         </div>
 
 
-		<div class="social-buttons">
+		<div class="social-section">
     		<div class="social-button-container">
 				<a href="https://www.instagram.com/macroderma/" target="_blank"><img src="/img/instagram.png" alt="Instagram"></a>
     		</div>
