@@ -15,7 +15,7 @@
                 <c:choose>
                     <c:when test="${usuarioEnSesion != null}">
                         <p><c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>Bienvenid@, ${usuarioEnSesion.nombre}</p>
-                        <a href="/logout" class="logout-button">Cerrar Sesión</a>
+                        <a href="/logout" class="logout-button">Cerrar Sesiï¿½n</a>
                         <!-- Agrega enlaces para administradores -->
                         <c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">
                             <a href="/misproductos" class="dashboard-link">Ver Mis Productos</a>
@@ -23,7 +23,7 @@
                         </c:if>
                     </c:when>
                     <c:otherwise>
-                        <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesión</a>
+                        <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesiï¿½n</a>
                     </c:otherwise>
                 </c:choose>
             </div>
@@ -51,27 +51,27 @@
             <span>${not empty carrito ? carrito.size() : 0}</span>
         </div>
     </div>
-    <h1>¿Que es Macroderma?</h1>
+    <h1>ï¿½Que es Macroderma?</h1>
     <div class="columns">
     		<div class="txtd">
     			<div>
 		   			<p>
-		   				En Macroderma Clinic, nos enorgullece ofrecer a nuestros pacientes una experiencia estética excepcional respaldada 
-		   				por una dedicación inquebrantable a la innovación y la excelencia. Nuestra clínica cuenta con un equipo de 
-		   				profesionales altamente especializados en una amplia gama de tratamientos estéticos, respaldados por las tecnologías 
-		   				más avanzadas. Nuestras instalaciones se destacan por su entorno acogedor y estéticamente atractivo, diseñado para 
-		   				brindar la máxima comodidad a nuestros pacientes. Además, nuestros profesionales se mantienen en constante 
-		   				capacitación en los mejores recintos y universidades, bajo la tutela de los más destacados especialistas. 
+		   				En Macroderma Clinic, nos enorgullece ofrecer a nuestros pacientes una experiencia estï¿½tica excepcional respaldada 
+		   				por una dedicaciï¿½n inquebrantable a la innovaciï¿½n y la excelencia. Nuestra clï¿½nica cuenta con un equipo de 
+		   				profesionales altamente especializados en una amplia gama de tratamientos estï¿½ticos, respaldados por las tecnologï¿½as 
+		   				mï¿½s avanzadas. Nuestras instalaciones se destacan por su entorno acogedor y estï¿½ticamente atractivo, diseï¿½ado para 
+		   				brindar la mï¿½xima comodidad a nuestros pacientes. Ademï¿½s, nuestros profesionales se mantienen en constante 
+		   				capacitaciï¿½n en los mejores recintos y universidades, bajo la tutela de los mï¿½s destacados especialistas. 
 		   				<br>
-		   				En Macroderma Clinic, nuestra principal prioridad es la satisfacción de nuestros clientes, y estamos comprometidos 
-		   				en ayudarles a sentirse y verse lo mejor posible.
+		   				En Macroderma Clinic, nuestra principal prioridad es la satisfacciï¿½n de nuestros clientes, y estamos comprometidos 
+		   				en ayudarles a sentirse y verse loï¿½mejorï¿½posible.
 		   			</p>
 		   		</div>
 		   		<div>
 		   			<br>
-		   			<h3>¿Como Contactarnos?</h3>
+		   			<h3>ï¿½Como Contactarnos?</h3>
 		   			<p>
-		   				contactanos al fono whatsapp +56 9 3387 6798 <i>Solo Whatsapp</i>
+		   				contactanos al +56 9 3387 6798 <i>Solo Whatsapp</i>
 		   				<p> o a traves de nuestro <a href= "https://www.instagram.com/macroderma/" target="_blank" >instagram</a> <%-- Solo es un ejemplo de numero, lo mismo con la direccion --%>
 		   				<br>
 		   				
@@ -80,7 +80,7 @@
 	   		</div> 
 	    	<div class="fototext">
 		    	<div>	
-		    		<img class="foto" src="img/duena.jpg" alt="direc o dueña de pyme">
+		    		<img class="foto" src="img/duena.jpg" alt="direc o dueï¿½a de pyme">
 		    		<br>
 		    		<b> Katherine Ponce.
 		    			<br>
@@ -88,10 +88,10 @@
 		    		</b>
 		    	</div>
 		    	<div>
-	    			<img class="foto" src="img/Belén.jpg" alt="enfermera">
+	    			<img class="foto" src="img/Belï¿½n.jpg" alt="enfermera">
 	    			<br>
 	   				<b> 
-	   					Belén Mendoza. 
+	   					Belï¿½n Paredes. 
 	   					<br>
 	   					TENS.
 	   				</b>    			
@@ -105,22 +105,22 @@
             </div>
             <div class="footer-column">
                 <ul>
-                    <li>MacroDerma estetica © All rights reserved.</li>
+                    <li>Macroderma estetica ï¿½ All rights reserved.</li>
                     <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
                     <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>Páginas Legales</h4>
+                <h4>Pï¿½ginas Legales</h4>
                 <ul>
-                    <li><a href="/PyP">Política de Privacidad</a></li>
+                    <li><a href="/PyP">Polï¿½tica de Privacidad</a></li>
                     <li><a href="/condiciones">Condiciones de uso</a></li>
                     <li><a href="/aviso">Aviso Legal</a></li>
                 </ul>
             </div>
         </div>
         <div class="social-section">
-            <h4>Síguenos en Instagram</h4>
+            <h4>Sï¿½guenos en Instagram</h4>
             <div class="social-buttons">
                 <a href="https://www.instagram.com/macroderma/" class="social-button instagram" target="_blank">Instagram</a>  
                 <a href="https://wa.me/+56933876798" class="social-button whatsapp" target="_blank">WhatsApp</a>          
