@@ -14,7 +14,7 @@
                 <c:choose>
                     <c:when test="${usuarioEnSesion != null}">
                         <p><c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">[ADMIN] </c:if>Bienvenid@, ${usuarioEnSesion.nombre}</p>
-                        <a href="/logout" class="logout-button">Cerrar Sesión</a>
+                        <a href="/logout" class="logout-button">Cerrar Sesiï¿½n</a>
                         <!-- Agrega enlaces para administradores -->
                         <c:if test="${usuarioEnSesion.rol == 'ADMINISTRADOR'}">
                             <a href="/misproductos" class="dashboard-link">Ver Mis Productos</a>
@@ -22,7 +22,7 @@
                         </c:if>
                     </c:when>
                     <c:otherwise>
-                        <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesión</a>
+                        <a href="/registrarse"  class="inicioregistro">Registrarse</a><p>|</p><a href="/login"  class="inicioregistro" >Iniciar Sesiï¿½n</a>
                     </c:otherwise>
                 </c:choose>
             </div>
@@ -56,7 +56,7 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Bienvenido a Nuestra Tienda de Cuidado de la Piel</h1>
-            <p>Descubre nuestra amplia gama de productos de cuidado de la piel para lucir radiante y saludable todos los días.</p>
+            <p>Descubre nuestra amplia gama de productos de cuidado de la piel para lucir radiante y saludable todos los dï¿½as.</p>
             <a href="/productos" class="cta-button">Explora nuestros productos</a>
         </div>
     </section>
@@ -66,19 +66,22 @@
         </div>
         <div class="feature-content">
             <h2>Descubre Nuestros Servicios de Cuidado de la Piel</h2>
-            <p>Somos una tienda especializada en productos y tratamientos de cuidado de la piel. Ofrecemos una amplia gama de productos de alta calidad para ayudarte a mantener tu piel saludable y radiante. Nuestros expertos en cuidado de la piel están aquí para ayudarte a encontrar los mejores tratamientos para tus necesidades.</p>
+            <p>Somos una tienda especializada en productos y tratamientos de cuidado de la piel. Ofrecemos una amplia gama de productos de alta calidad para ayudarte a mantener tu piel saludable y radiante. Nuestros expertos en cuidado de la piel estï¿½n aquï¿½ para ayudarte a encontrar los mejores tratamientos para tus necesidades.</p>
             <a href="/tratamientos" class="cta-button">Ver tratamientos</a>
         </div>
     </section>
     <section class="gallery-section">
-        <h2>Galería de Imágenes</h2>
+        <h2>Galerï¿½a de Imï¿½genes</h2>
         <div class="image-gallery">
-            <img src="https://semprebella.com.ar/wp-content/uploads/2023/06/limpieza-de-cutis-profunda-estetica-sempre-bella.jpg" alt="Imagen 1">
-            <img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/07/11061838/Tratamientos-faciales.jpg" alt="Imagen 2">
-            <img src="https://www.hedonai.com/wp-content/uploads/2018/07/peeling-prx.jpg" alt="Imagen 3">
-            <img src="https://www.hedonai.com/wp-content/uploads/2021/11/diferencia-entre-peeling-y-exfoliante.jpg" alt="Imagen 4">
-            <img src="https://d1kw0nx8pk9xzh.cloudfront.net/0001/fc77c508/resize-crop(w=1600;h=900):sharpen(level=0):output(format=jpeg)/up/dt/2023/05/Ojeras1_Vitriol.jpg" alt="Imagen 5">
-            <img src="https://media.glamour.mx/photos/619b3334dd26e0d8fb30a666/16:9/w_2560%2Cc_limit/266948.jpg" alt="Imagen 6">
+            <img src="/img/1.PNG" alt="Tratamiento de aumento de labios con acido hyaluronico">
+        	</img src="img/2.png" alt="Tratamiento de arminizacion facial con acido hyaluronico">
+        	</img src="img/9.jpg" alt="Tratamiento con toxina botulinica">
+        	</img src="img/3.png" alt="Tratamiento con toxina botulinica en frente">
+        	</img src="img/4.png" alt="Tratamiento criolipolisis">
+        	</img src="img/7.png" alt="Tratamiento de aumento de labios con acido hyaluronico">
+        	</img src="img/8.png" alt="Tratamiento de aumento de rinomodelacion con acido hyaluronico">
+			<img src="/img/5.png" alt="Tratamiento criolipolisis">
+			<img src="/img/6.png" alt="Tratamiento de depilaciÃ³n, torso de hombre">
         </div>
     </section>
 <footer class="footer-section">
@@ -88,22 +91,22 @@
             </div>
             <div class="footer-column">
                 <ul>
-                    <li>MacroDerma estetica © All rights reserved.</li>
+                    <li>MacroDerma estetica ï¿½ All rights reserved.</li>
                     <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
                     <li><img src ="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>Páginas Legales</h4>
+                <h4>Pï¿½ginas Legales</h4>
                 <ul>
-                    <li><a href="/PyP">Política de Privacidad</a></li>
+                    <li><a href="/PyP">Polï¿½tica de Privacidad</a></li>
                     <li><a href="/condiciones">Condiciones de uso</a></li>
                     <li><a href="/aviso">Aviso Legal</a></li>
                 </ul>
             </div>
         </div>
         <div class="social-section">
-            <h4>Síguenos en Instagram</h4>
+            <h4>Sï¿½guenos en Instagram</h4>
             <div class="social-buttons">
                 <a href="https://www.instagram.com/macroderma/" class="social-button instagram" target="_blank">Instagram</a>  
                 <a href="https://wa.me/+56933876798" class="social-button whatsapp" target="_blank">WhatsApp</a>          
