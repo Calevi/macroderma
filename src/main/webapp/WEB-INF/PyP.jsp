@@ -60,20 +60,20 @@
     </section>
     <section class="policy">
         <!-- Contenido de la secciï¿½n de polï¿½ticas y privacidad -->
-        <h2>Polï¿½ticas y Privacidad</h2>
-        <p>En SkinCare Chile, nos preocupamos por la privacidad y la seguridad de nuestros clientes. A continuaciï¿½n, se describen nuestras polï¿½ticas y prï¿½cticas de privacidad:</p>
+        <h2>Politicas y Privacidad</h2>
+        <p>En SkinCare Chile, nos preocupamos por la privacidad y la seguridad de nuestros clientes. A continuación, se describen nuestras politicas y practicas de privacidad:</p>
 
-        <h3>Recopilaciï¿½n de Informaciï¿½n Personal</h3>
-        <p>Recopilamos informaciï¿½n personal de nuestros clientes, como nombre, direcciï¿½n y correo electrï¿½nico, con el ï¿½nico propï¿½sito de procesar y enviar pedidos. No compartimos esta informaciï¿½n con terceros.</p>
+        <h3>Recopilación de Información Personal</h3>
+        <p>Recopilamos información personal de nuestros clientes, como nombre, dirección y correo electrónico, con el único proposito de procesar y enviar pedidos. No compartimos esta información con terceros.</p>
 
         <h3>Cookies</h3>
-        <p>Utilizamos cookies para mejorar la experiencia de navegaciï¿½n de nuestros usuarios. Estas cookies no almacenan informaciï¿½n personal y se utilizan solo con fines estadï¿½sticos y de anï¿½lisis.</p>
+        <p>Utilizamos cookies para mejorar la experiencia de navegación de nuestros usuarios. Estas cookies no almacenan información personal y se utilizan solo con fines estadisticos y de análisis.</p>
 
         <h3>Seguridad</h3>
-        <p>Tomamos medidas para proteger la informaciï¿½n personal de nuestros clientes. Utilizamos protocolos de seguridad estï¿½ndar de la industria para garantizar la confidencialidad de los datos.</p>
+        <p>Tomamos medidas para proteger la información personal de nuestros clientes. Utilizamos protocolos de seguridad estandar de la industria para garantizar la confidencialidad de los datos.</p>
 
         <h3>Contacto</h3>
-        <p>Si tienes alguna pregunta o inquietud sobre nuestras polï¿½ticas de privacidad, no dudes en <a href="contacto.html">contactarnos</a>.</p>
+        <p>Si tienes alguna pregunta o inquietud sobre nuestras politicas de privacidad, no dudes en <a href="contacto.html">contactarnos</a>.</p>
     </section>
 
     <footer class="footer-section">

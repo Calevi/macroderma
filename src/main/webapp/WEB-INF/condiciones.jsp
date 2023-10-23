@@ -67,13 +67,13 @@
         <p>Debes utilizar este sitio web de manera adecuada y de acuerdo con todas las leyes y regulaciones aplicables en Chile. No se permite el uso indebido, ilegal o inapropiado de este sitio.</p>
 
         <h3>2. Propiedad Intelectual</h3>
-        <p>Todo el contenido de este sitio web, incluyendo texto, imï¿½genes, logotipos y marcas registradas, estï¿½ protegido por derechos de propiedad intelectual y no puedes utilizarlo sin nuestro permiso.</p>
+        <p>Todo el contenido de este sitio web, incluyendo texto, imágenes, logotipos y marcas registradas, estan protegido por derechos de propiedad intelectual y no puedes utilizarlo sin nuestro permiso.</p>
 
         <h3>3. Privacidad</h3>
-        <p>Nuestra polï¿½tica de privacidad describe cï¿½mo recopilamos, utilizamos y protegemos tu informaciï¿½n personal. Al utilizar este sitio, aceptas nuestras prï¿½cticas de privacidad.</p>
+        <p>Nuestra politica de privacidad describe cómo recopilamos, utilizamos y protegemos tu información personal. Al utilizar este sitio, aceptas nuestras prácticas de privacidad.</p>
 
         <h3>4. Cambios en las Condiciones</h3>
-        <p>Nos reservamos el derecho de modificar estas condiciones en cualquier momento. Es tu responsabilidad revisarlas periï¿½dicamente para estar al tanto de cualquier cambio.</p>
+        <p>Nos reservamos el derecho de modificar estas condiciones en cualquier momento. Es tu responsabilidad revisarlas periodicamente para estar al tanto de cualquier cambio.</p>
 
         <h3>5. Contacto</h3>
         <p>Si tienes preguntas o comentarios sobre estas condiciones, puedes <a href="/nosotros">contactarnos</a>.</p>
