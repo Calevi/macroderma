@@ -79,15 +79,17 @@
 		</div>
 	</div>
 		<h3 class="fototext">Nuestras Instalaciones.</h3>	
-		<div class="image-container fototext">
+		<div class="image-container">
     		
-	        <div class="feature-image">
+	        <div class="feature-image fototext">
 	            <img src="/img/c3.png" alt="Imagen clínica" width="90%">
 	        </div>
+	       	
 	        
-	        <div class="feature-image">
+	        <div class="feature-image fototext">
 	            <img src="/img/c2.png" alt="Imagen clínica" width="90%">
 	        </div>
+	        
 	        
     	</div>
 	</div>
