@@ -7,6 +7,13 @@
     <title>Nosotros</title>
     <link rel="stylesheet" href="/CSS/nos.css">
     <link rel="stylesheet" href="/CSS/dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header>
@@ -51,15 +58,22 @@
             <span>${not empty carrito ? carrito.size() : 0}</span>
         </div>
     </div>
-    <h1>¿Que es Macroderma?</h1>
+    <h1>¿Qué es Macroderma?</h1>
     <div>
     <div class="columns">        
 		<div class="txtd">
 			<p>
 		    	En Macroderma Clinic, nos enorgullece ofrecer a nuestros pacientes una experiencia estética excepcional respaldada por una dedicación inquebrantable a la innovación y la excelencia. Nuestra clínica cuenta con un equipo de profesionales altamente especializados en una amplia gama de tratamientos estéticos, respaldados por las tecnologías más avanzadas. Nuestras instalaciones se destacan por su entorno acogedor y estéticamente atractivo, diseñado para brindar la máxima comodidad a nuestros pacientes. Además, nuestros profesionales se mantienen en constante capacitación en los mejores recintos y universidades, bajo la tutela de los más destacados especialistas.
 		    </p>
-		    <h3>¿Cómo Contactarnos?</h3>
-		    <p>Contactanos al +56 9 3387 6798 <i>Solo Whatsapp</i> o a través de nuestro <a href="https://www.instagram.com/macroderma/" target="_blank">Instagram.</a></p>
+		    <h2>¿Cómo Contactarnos?</h2>
+		    <p>Contactanos al +56 9 3387 6798 <i>Solo Whatsapp</i> o a través de nuestro <a href="https://www.instagram.com/macroderma/" target="_blank" class="button-link">Instagram</a></p>
+		    
+			<div class="opiniones">    
+			    <h2>Nuestra clientela nos califica 100% con  5 estrellas<h2>
+			    <img class="foto" src="img/google1.png" alt="opinion 1">
+			    <img class="foto" src="img/google2.png" alt="opinion 2">
+			    <img class="foto" src="img/google3.png" alt="opinion 3">
+		    </div>
 		</div>
 		<div class="fototext">
 			<div>
@@ -82,7 +96,7 @@
 		<div class="image-container">
     		
 	        <div class="feature-image fototext">
-	            <img src="/img/c3.png" alt="Imagen clÃ­nica" width="90%">
+	            <img src="/img/c3.png" alt="Imagen clínica" width="90%">
 	        </div>
 	       	
 	        
@@ -93,20 +107,23 @@
 	        
     	</div>
 	</div>
+	
+	
 	<footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
                 <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
             </div>
             <div class="footer-column">
-                <ul>
-                    <li>Macroderma estetica - All rights reserved.</li>
-                    <li><img src="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
-                    <li><img src="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
+                <ul>                  
+                    <li><img src="/img/seremi.png" alt="Imagen Seremi" width="90%"></li>
+                    <li><img src="/img/pagos.png" alt="Imagen pagos" width="90%"></li>
+                	<li>Macroderma Clinic © 2023</li> 
+                	<li>All rights reserved</li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>Paginas Legales</h4>
+                <h4>Páginas Legales</h4>
                 <ul>
                     <li><a href="/PyP">Politica de Privacidad</a></li>
                     <li><a href="/condiciones">Condiciones de uso</a></li>

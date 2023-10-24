@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 254, 254);
+}
+/* Estilos para convertir el enlace en un botón blanco */
+a.button-link {
+    background-color: green;
+    color: white; /* Color de texto verde */
+    padding: 10px 20px; /* Espaciado interior para el botón */
+    border: 1px solid #ccc; /* Borde del botón (puedes personalizar esto) */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el botón se comporte como un bloque en línea */
+    text-align: center; /* Centra el texto horizontalmente */
+    transition: background-color 0.3s, color 0.3s; /* Transición para cambios de color */
+}
+

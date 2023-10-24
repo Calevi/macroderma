@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Macroderma</title>
     <link rel="stylesheet" href="CSS/dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    
+    
 </head>
 <body>
     <header>
@@ -22,7 +30,7 @@
                         </c:if>
                     </c:when>
                     <c:otherwise>
-                        <a href="/registrarse" class="inicioregistro">Registrarse</a><p>|</p><a href="/login" class="inicioregistro">Iniciar Sesion</a>
+                        <a href="/registrarse" class="inicioregistro">Registrarse</a><p>|</p><a href="/login" class="inicioregistro">Iniciar Sesión</a>
                     </c:otherwise>
                 </c:choose>
             </div>
@@ -53,11 +61,10 @@
     </div>
     <section class="hero">
         <div class="hero-content">
-            <h1>Bienvenido a Macroderma:
-            Donde la belleza se encuentra con la excelencia</h1>
-
-            <p>Descubre nuestra amplia gama de productos de cuidado de la piel para lucir radiante y saludable todos los dias.</p>
-            <a href="/productos" class="cta-button">Explora nuestros productos</a>
+            <h1>Bienvenido a Macroderma</h1>
+            <h2>Donde la belleza se encuentra con la excelencia<h2>
+            <p>Descubre nuestra amplia gama de productos y servicios para lucir radiante y saludable todos los días.</p>
+            <a href="/productos" class="cta-button" style="font-family: 'Raleway', sans-serif: inherit; text-shadow: none; color: #000;">Explora nuestros productos</a>
         </div>
     </section>
     <section class="feature-section">
@@ -67,12 +74,12 @@
 
 	        <div class="feature-content">
 	            <h2>Descubre Nuestros Servicios de Cuidado de la Piel</h2>
-	            <p>Somos una tienda especializada en productos y tratamientos de cuidado de la piel. Ofrecemos una amplia gama de productos de alta calidad para ayudarte a mantener tu piel saludable y radiante. Nuestros expertos en cuidado de la piel estÃ¡n aquÃ­ para ayudarte a encontrar los mejores tratamientos para tus necesidades.</p>
+	            <p>Descubre nuestra amplia gama de productos y servicios para lucir radiante y saludable todos los días. Nuestros expertos en cuidado de la piel están aquí para ayudarte a encontrar los mejores tratamientos para tus necesidades.</p>
 	            <a href="/tratamientos" class="cta-button">Ver tratamientos</a>
 	        </div>
     </section>
     <section class="gallery-section">
-        <h2>Galeria de Imagenes</h2>
+        <h2>Galería de Imagenes</h2>
         <div class="image-gallery">
             <img src="/img/labios.png" alt="Tratamiento de aumento de labios con Ã¡cido hialurÃ³nico">
             <img src="/img/armonizacion.png" alt="Tratamiento de armonizaciÃ³n facial con Ã¡cido hialurÃ³nico">
@@ -83,20 +90,23 @@
             <img src="/img/depilacion.png" alt="Tratamiento de depilaciÃ³n, torso de hombre">
         </div>
     </section>
+    
+    
     <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
                 <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
             </div>
             <div class="footer-column">
-                <ul>
-                    <li>Macroderma estetica - All rights reserved.</li>
-                    <li><img src="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
-                    <li><img src="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
+                <ul>                  
+                    <li><img src="/img/seremi.png" alt="Imagen Seremi" width="90%"></li>
+                    <li><img src="/img/pagos.png" alt="Imagen pagos" width="90%"></li>
+                	<li>Macroderma Clinic © 2023</li> 
+                	<li>All rights reserved</li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>Paginas Legales</h4>
+                <h4>Páginas Legales</h4>
                 <ul>
                     <li><a href="/PyP">Politica de Privacidad</a></li>
                     <li><a href="/condiciones">Condiciones de uso</a></li>
