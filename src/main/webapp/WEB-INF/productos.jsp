@@ -73,27 +73,28 @@
         </c:forEach>
     </div>
     </section>
-<footer class="footer-section">
+ <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-column">
                 <a href="/"><img src="img/logoblanco.png" alt="Tu Logo" class="logo"></a>
             </div>
             <div class="footer-column">
-                <ul>
-                    <li>Macroderma estetica - All rights reserved.</li>
-                    <li><img src="https://auroraestetica.cl/wp-content/uploads/2023/01/pagos.png"></li>
-                    <li><img src="https://auroraestetica.cl/wp-content/uploads/2023/01/SEREMISALUDMET.png"></li>
+                <ul>                  
+                    <li><img src="/img/seremi.png" alt="Imagen Seremi" width="90%"></li>
+                    <li><img src="/img/pagos.png" alt="Imagen pagos" width="90%"></li>
+                	<li>Macroderma Clinic © 2023</li> 
+                	<li>All rights reserved</li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>Paginas Legales</h4>
+                <h4>Páginas Legales</h4>
                 <ul>
                     <li><a href="/PyP">Politica de Privacidad</a></li>
                     <li><a href="/condiciones">Condiciones de uso</a></li>
                     <li><a href="/aviso">Aviso Legal</a></li>
                 </ul>
             </div>
-        </div>
+        </div> 
 
 
 		<div class="social-section">
