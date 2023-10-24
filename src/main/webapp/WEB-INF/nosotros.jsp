@@ -65,7 +65,6 @@
 			<p>
 		    	En Macroderma Clinic, nos enorgullece ofrecer a nuestros pacientes una experiencia estética excepcional respaldada por una dedicación inquebrantable a la innovación y la excelencia. Nuestra clínica cuenta con un equipo de profesionales altamente especializados en una amplia gama de tratamientos estéticos, respaldados por las tecnologías más avanzadas. Nuestras instalaciones se destacan por su entorno acogedor y estéticamente atractivo, diseñado para brindar la máxima comodidad a nuestros pacientes. Además, nuestros profesionales se mantienen en constante capacitación en los mejores recintos y universidades, bajo la tutela de los más destacados especialistas.
 		    </p>
-		    <h2>¿Cómo Contactarnos?</h2>
 		    <p>Contactanos al +56 9 3387 6798 <i>Solo Whatsapp</i> o a través de nuestro <a href="https://www.instagram.com/macroderma/" target="_blank" class="button-link">Instagram</a></p>
 		    
 			<div class="opiniones">    
@@ -79,14 +78,14 @@
 			<div>
 		    	<img class="foto" src="img/duena.jpg" alt="Directora o dueÃ±a de pyme">
 		        <br>
-		        <b>Katherine Ponce.</b>
+		        	<b><i>Katherine Ponce</i></b>
 		        <br>
 	               Fundadora.
 	            </div>
 	            <div>
 			        <img class="foto" src="img/Belen.jpg" alt="Enfermera">
 		            <br>
-		            <b>Belén Paredes.</b>
+		            	<b><i>Belén Paredes</i></b>
 		            <br>
 		            TENS.
 			</div>

@@ -2,6 +2,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
+    text-align: justify;
     margin: 0;
     padding: 0;
     background-color: rgb(255, 254, 254);
@@ -17,5 +18,9 @@ a.button-link {
     display: inline-block; /* Hace que el botón se comporte como un bloque en línea */
     text-align: center; /* Centra el texto horizontalmente */
     transition: background-color 0.3s, color 0.3s; /* Transición para cambios de color */
+}
+
+p {
+	text-align: justify;
 }
 

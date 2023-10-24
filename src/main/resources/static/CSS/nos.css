@@ -43,6 +43,12 @@ p {
     font-weight: 200; 
 }
 
+b {
+    padding-left:20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200; 
+}
+
 .image-container {
     display: flex;
     justify-content: center;
