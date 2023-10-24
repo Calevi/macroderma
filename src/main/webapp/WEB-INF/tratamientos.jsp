@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
+    <title>Tratamientos</title>
     <link rel="stylesheet" href="/CSS/trat.css">
     <link rel="stylesheet" href="/CSS/dashboard.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -93,20 +93,30 @@
         </div>
 
         <div class="product">
-            <img src="/img/TOXINABOTULINICA.jpeg">
-            <h3>Toxina Botulinica</h3>
-            <p> Inoculación de toxina botulínica (Botox) para relajar los músculos causantes de las líneas de expresión. Es un procedimiento ambulatorio, rápido y sin dolor que mejora gradualmente la calidad de la piel al restaurar el colágeno. Se administra mediante pequeñas inyecciones en el consultorio médico, bloqueando temporalmente los impulsos nerviosos en los músculos tratados, lo que reduce visiblemente las arrugas y líneas de expresión.</p>
-            <a href="https://wa.me/+56933876798" target="_blank" class="button-link">Contratar</a>
+        <img src="/img/TOXINABOTULINICA.jpeg" alt="Toxina Botulinica" class="product-image">
+        <h3>Toxina Botulinica</h3>
+        <p>
+            Inoculación de toxina botulínica (Botox) para relajar los músculos causantes de las líneas de expresión.
+            Es un procedimiento ambulatorio, rápido y sin dolor que mejora gradualmente la calidad de la piel al
+            restaurar el colágeno. Se administra mediante pequeñas inyecciones en el consultorio médico, bloqueando
+            temporalmente los impulsos nerviosos en los músculos tratados, lo que reduce visiblemente las arrugas y
+            líneas de expresión.
+        </p>
+        <a href="https://wa.me/+56933876798" target="_blank" class="button-link">Contratar</a>
+    </div>
 
-        </div>
-
-        <div class="product">
-            <img src="/img/DEPILACIONLASERDIODO.jpeg">
-            <h3>Depilacion Laser Diodo</h3>
-            <p>Tratamiento revolucionario de depilación láser de diodo de alta potencia con un láser europeo único equipado con un sistema VCSEL. Este sistema reduce los efectos secundarios hasta en un 90% y duplica la efectividad del tratamiento. La depilación láser de diodo de alta potencia elimina permanentemente el vello no deseado desde la raíz, sin dañar la piel circundante. Es una solución versátil y segura que se puede utilizar durante todo el año y temporada.</p>
-            <a href="https://wa.me/+56933876798" target="_blank" class="button-link">Contratar</a>
-
-        </div>
+    <div class="product">
+        <img src="/img/DEPILACIONLASERDIODO.jpeg" alt="Depilacion Laser Diodo" class="product-image">
+        <h3>Depilacion Laser Diodo</h3>
+        <p>
+            Tratamiento revolucionario de depilación láser de diodo de alta potencia con un láser europeo único equipado
+            con un sistema VCSEL. Este sistema reduce los efectos secundarios hasta en un 90% y duplica la efectividad
+            del tratamiento. La depilación láser de diodo de alta potencia elimina permanentemente el vello no deseado
+            desde la raíz, sin dañar la piel circundante. Es una solución versátil y segura que se puede utilizar durante
+            todo el año y temporada.
+        </p>
+        <a href="https://wa.me/+56933876798" target="_blank" class="button-link">Contratar</a>
+    </div>
         <div class="product">
             <img src="/img/BIOESTIMULADORESFACIALES.jpeg">
             <h3>Bioestimuladores Faciales</h3>

@@ -24,3 +24,10 @@ p {
 	text-align: justify;
 }
 
+.product img {
+    width: 300px; /* Ancho deseado para las imágenes */
+    height: 200px; /* Altura deseada para las imágenes */
+}
+
+
+
