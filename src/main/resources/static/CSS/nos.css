@@ -8,7 +8,8 @@ body {
 }
 
 .foto {
-	width: 400px;
+	width: 80%; 
+    height: auto;
 }
 .fototext{
 	text-align: center;

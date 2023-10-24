@@ -58,14 +58,14 @@
             <span>${not empty carrito ? carrito.size() : 0}</span>
         </div>
     </div>
-    <h1>¿Qué es Macroderma?</h1>
+    <h1>QuÃ© es Macroderma?</h1>
     <div>
     <div class="columns">        
 		<div class="txtd">
 			<p>
-		    	En Macroderma Clinic, nos enorgullece ofrecer a nuestros pacientes una experiencia estética excepcional respaldada por una dedicación inquebrantable a la innovación y la excelencia. Nuestra clínica cuenta con un equipo de profesionales altamente especializados en una amplia gama de tratamientos estéticos, respaldados por las tecnologías más avanzadas. Nuestras instalaciones se destacan por su entorno acogedor y estéticamente atractivo, diseñado para brindar la máxima comodidad a nuestros pacientes. Además, nuestros profesionales se mantienen en constante capacitación en los mejores recintos y universidades, bajo la tutela de los más destacados especialistas.
+		    	En Macroderma Clinic, nos enorgullece ofrecer a nuestros pacientes una experiencia estï¿½tica excepcional respaldada por una dedicaciï¿½n inquebrantable a la innovaciï¿½n y la excelencia. Nuestra clï¿½nica cuenta con un equipo de profesionales altamente especializados en una amplia gama de tratamientos estï¿½ticos, respaldados por las tecnologï¿½as mï¿½s avanzadas. Nuestras instalaciones se destacan por su entorno acogedor y estï¿½ticamente atractivo, diseï¿½ado para brindar la mï¿½xima comodidad a nuestros pacientes. Ademï¿½s, nuestros profesionales se mantienen en constante capacitaciï¿½n en los mejores recintos y universidades, bajo la tutela de los mï¿½s destacados especialistas.
 		    </p>
-		    <p>Contactanos al +56 9 3387 6798 <i>Solo Whatsapp</i> o a través de nuestro <a href="https://www.instagram.com/macroderma/" target="_blank" class="button-link">Instagram</a></p>
+		    <p>Contactanos al +56 9 3387 6798 <i>Solo Whatsapp</i> o a travÃ©s de nuestro <a href="https://www.instagram.com/macroderma/" target="_blank" class="button-link">Instagram</a></p>
 		    
 			<div class="opiniones">    
 			    <h2>Nuestra clientela nos califica 100% con  5 estrellas<h2>
@@ -85,7 +85,7 @@
 	            <div>
 			        <img class="foto" src="img/Belen.jpg" alt="Enfermera">
 		            <br>
-		            	<b><i>Belén Paredes</i></b>
+		            	<b><i>BelÃ©n Paredes</i></b>
 		            <br>
 		            TENS.
 			</div>
@@ -95,7 +95,7 @@
 		<div class="image-container">
     		
 	        <div class="feature-image fototext">
-	            <img src="/img/c3.png" alt="Imagen clínica" width="90%">
+	            <img src="/img/c3.png" alt="Imagen clÃ­nica" width="90%">
 	        </div>
 	       	
 	        
@@ -117,12 +117,12 @@
                 <ul>                  
                     <li><img src="/img/seremi.png" alt="Imagen Seremi" width="90%"></li>
                     <li><img src="/img/pagos.png" alt="Imagen pagos" width="90%"></li>
-                	<li>Macroderma Clinic © 2023</li> 
+                	<li>Macroderma Clinic Â© 2023</li> 
                 	<li>All rights reserved</li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>Páginas Legales</h4>
+                <h4>PÃ¡ginas Legales</h4>
                 <ul>
                     <li><a href="/PyP">Politica de Privacidad</a></li>
                     <li><a href="/condiciones">Condiciones de uso</a></li>
